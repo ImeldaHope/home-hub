@@ -38,7 +38,7 @@ To get started with Home Hub, follow these steps:
    ```
 2. **Navigate to the Project Directory**
    ```bash
-   cd real-estate-management
+   cd home-hub
    ```
 3. **Install Dependencies**
    Ensure you have Node.js installed. Then, run:
