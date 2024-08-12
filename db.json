@@ -1,0 +1,1020 @@
+{ "homehub" : [
+    {
+      "id": 1,
+      "title": "Modern Family Home",
+      "location": "Nairobi, Kenya",
+      "price": 45000000,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "squareFootage": 2500,
+      "status": "For Sale",
+      "amenities": ["Garden", "Garage", "Swimming Pool", "Home Office"],
+      "images": ["house1_img1.jpg", "house1_img2.jpg", "house1_img3.jpg"],
+      "description": "A spacious modern family home with a large garden, perfect for a growing family.",
+      "agent": {
+        "name": "John Doe",
+        "email": "john.doe@realestate.com",
+        "phone": "+254712345678",
+        "profilePicture": "agent1.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Luxury Apartment",
+      "location": "Westlands, Nairobi",
+      "price": 30000000,
+      "propertyType": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFootage": 1800,
+      "status": "For Rent",
+      "amenities": ["24/7 Security", "Gym", "Swimming Pool", "Parking"],
+      "images": ["apartment1_img1.jpg", "apartment1_img2.jpg", "apartment1_img3.jpg"],
+      "description": "A luxurious apartment with stunning city views, modern amenities, and security.",
+      "agent": {
+        "name": "Jane Smith",
+        "email": "jane.smith@realestate.com",
+        "phone": "+254798765432",
+        "profilePicture": "agent2.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Cozy Cottage",
+      "location": "Karen, Nairobi",
+      "price": 25000000,
+      "propertyType": "Cottage",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFootage": 1500,
+      "status": "For Sale",
+      "amenities": ["Fireplace", "Private Garden", "Gated Community"],
+      "images": ["cottage1_img1.jpg", "cottage1_img2.jpg", "cottage1_img3.jpg"],
+      "description": "A charming cottage nestled in a serene environment, ideal for a peaceful retreat.",
+      "agent": {
+        "name": "Emily Brown",
+        "email": "emily.brown@realestate.com",
+        "phone": "+254723456789",
+        "profilePicture": "agent3.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Beachfront Villa",
+      "location": "Diani, Kenya",
+      "price": 80000000,
+      "propertyType": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "squareFootage": 4000,
+      "status": "For Sale",
+      "amenities": ["Private Beach Access", "Infinity Pool", "Outdoor Kitchen", "Guest House"],
+      "images": ["villa1_img1.jpg", "villa1_img2.jpg", "villa1_img3.jpg"],
+      "description": "A stunning beachfront villa with private access to the beach, perfect for luxury living.",
+      "agent": {
+        "name": "Michael Johnson",
+        "email": "michael.johnson@realestate.com",
+        "phone": "+254701234567",
+        "profilePicture": "agent4.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Urban Loft",
+      "location": "Kilimani, Nairobi",
+      "price": 35000000,
+      "propertyType": "Loft",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFootage": 2000,
+      "status": "For Rent",
+      "amenities": ["Rooftop Terrace", "High Ceilings", "Fitness Center"],
+      "images": ["loft1_img1.jpg", "loft1_img2.jpg", "loft1_img3.jpg"],
+      "description": "A trendy urban loft with open floor plans, ideal for modern city living.",
+      "agent": {
+        "name": "Sarah Lee",
+        "email": "sarah.lee@realestate.com",
+        "phone": "+254789012345",
+        "profilePicture": "agent5.jpg"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Country Estate",
+      "location": "Naivasha, Kenya",
+      "price": 60000000,
+      "propertyType": "Estate",
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "squareFootage": 5000,
+      "status": "For Sale",
+      "amenities": ["Horse Stables", "Tennis Court", "Private Lake", "Helipad"],
+      "images": ["estate1_img1.jpg", "estate1_img2.jpg", "estate1_img3.jpg"],
+      "description": "A sprawling country estate with extensive grounds, ideal for a luxurious rural lifestyle.",
+      "agent": {
+        "name": "David White",
+        "email": "david.white@realestate.com",
+        "phone": "+254798654321",
+        "profilePicture": "agent6.jpg"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Penthouse Suite",
+      "location": "Lavington, Nairobi",
+      "price": 70000000,
+      "propertyType": "Penthouse",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "squareFootage": 3000,
+      "status": "For Sale",
+      "amenities": ["Private Elevator", "Rooftop Pool", "City Views", "Home Theater"],
+      "images": ["penthouse1_img1.jpg", "penthouse1_img2.jpg", "penthouse1_img3.jpg"],
+      "description": "A luxurious penthouse suite with breathtaking city views and exclusive amenities.",
+      "agent": {
+        "name": "Alice Green",
+        "email": "alice.green@realestate.com",
+        "phone": "+254712098765",
+        "profilePicture": "agent7.jpg"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Mountain Retreat",
+      "location": "Nanyuki, Kenya",
+      "price": 50000000,
+      "propertyType": "Retreat",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "squareFootage": 3500,
+      "status": "For Sale",
+      "amenities": ["Hiking Trails", "Fireplace", "Spa", "Scenic Views"],
+      "images": ["retreat1_img1.jpg", "retreat1_img2.jpg", "retreat1_img3.jpg"],
+      "description": "A peaceful mountain retreat surrounded by nature, perfect for relaxation and adventure.",
+      "agent": {
+        "name": "Chris Brown",
+        "email": "chris.brown@realestate.com",
+        "phone": "+254723456987",
+        "profilePicture": "agent8.jpg"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Eco-Friendly Villa",
+      "location": "Nairobi, Kenya",
+      "price": 48000000,
+      "propertyType": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "squareFootage": 2800,
+      "status": "For Sale",
+      "amenities": ["Solar Panels", "Rainwater Harvesting", "Energy Efficient Appliances"],
+      "images": ["villa2_img1.jpg", "villa2_img2.jpg", "villa2_img3.jpg"],
+      "description": "A modern eco-friendly villa with sustainable features and beautiful design.",
+      "agent": {
+        "name": "Daniel Craig",
+        "email": "daniel.craig@realestate.com",
+        "phone": "+254701234876",
+        "profilePicture": "agent9.jpg"
+      }
+    },
+    {
+      "id": 10,
+      "title": "City Studio",
+      "location": "Upper Hill, Nairobi",
+      "price": 20000000,
+      "propertyType": "Studio",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFootage": 800,
+      "status": "For Rent",
+      "amenities": ["Central Location", "Modern Kitchen", "Balcony"],
+      "images": ["studio1_img1.jpg", "studio1_img2.jpg", "studio1_img3.jpg"],
+      "description": "A stylish city studio with modern finishes, ideal for a single professional or couple.",
+      "agent": {
+        "name": "Eva Mendes",
+        "email": "eva.mendes@realestate.com",
+        "phone": "+254798765321",
+        "profilePicture": "agent10.jpg"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Lakefront Mansion",
+      "location": "Kisumu, Kenya",
+      "price": 100000000,
+      "propertyType": "Mansion",
+      "bedrooms": 7,
+      "bathrooms": 6,
+      "squareFootage": 6000,
+      "status": "For Sale",
+      "amenities": ["Private Dock", "Boat House", "Guest House", "Infinity Pool"],
+      "images": ["mansion1_img1.jpg", "mansion1_img2.jpg", "mansion1_img3.jpg"],
+      "description": "A luxurious lakefront mansion with private access to the lake and extensive amenities.",
+      "agent": {
+        "name": "Tom Hanks",
+        "email": "tom.hanks@realestate.com",
+        "phone": "+254721234567",
+        "profilePicture": "agent11.jpg"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Modern Duplex",
+      "location": "Mombasa, Kenya",
+      "price": 38000000,
+      "propertyType": "Duplex",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "squareFootage": 3200,
+      "status": "For Rent",
+      "amenities": ["Gated Community", "Shared Pool", "Private Balcony"],
+      "images": ["duplex1_img1.jpg", "duplex1_img2.jpg", "duplex1_img3.jpg"],
+      "description": "A modern duplex in a secure community, offering comfort and convenience.",
+      "agent": {
+        "name": "Jennifer Lawrence",
+        "email": "jennifer.lawrence@realestate.com",
+        "phone": "+254722345678",
+        "profilePicture": "agent12.jpg"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Historic Villa",
+      "location": "Lamu, Kenya",
+      "price": 72000000,
+      "propertyType": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "squareFootage": 4500,
+      "status": "For Sale",
+      "amenities": ["Cultural Significance", "Traditional Architecture", "Private Courtyard"],
+      "images": ["villa3_img1.jpg", "villa3_img2.jpg", "villa3_img3.jpg"],
+      "description": "A historic villa with rich cultural heritage, offering a unique living experience.",
+      "agent": {
+        "name": "Brad Pitt",
+        "email": "brad.pitt@realestate.com",
+        "phone": "+254723456890",
+        "profilePicture": "agent13.jpg"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Modern Bungalow",
+      "location": "Kisii, Kenya",
+      "price": 25000000,
+      "propertyType": "Bungalow",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFootage": 2000,
+      "status": "For Sale",
+      "amenities": ["Gated Community", "Modern Finishes", "Garden"],
+      "images": ["bungalow1_img1.jpg", "bungalow1_img2.jpg", "bungalow1_img3.jpg"],
+      "description": "A modern bungalow with contemporary design and comfortable living spaces.",
+      "agent": {
+        "name": "Charlize Theron",
+        "email": "charlize.theron@realestate.com",
+        "phone": "+254731234567",
+        "profilePicture": "agent14.jpg"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Suburban Family Home",
+      "location": "Thika, Kenya",
+      "price": 40000000,
+      "propertyType": "House",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "squareFootage": 3500,
+      "status": "For Sale",
+      "amenities": ["Garage", "Garden", "Home Office", "Playground"],
+      "images": ["house2_img1.jpg", "house2_img2.jpg", "house2_img3.jpg"],
+      "description": "A spacious suburban home with ample space for a large family, located in a friendly community.",
+      "agent": {
+        "name": "Morgan Freeman",
+        "email": "morgan.freeman@realestate.com",
+        "phone": "+254732345678",
+        "profilePicture": "agent15.jpg"
+      }
+    },
+    {
+      "id": 16,
+      "title": "Contemporary Condo",
+      "location": "Nyali, Mombasa",
+      "price": 28000000,
+      "propertyType": "Condo",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFootage": 1800,
+      "status": "For Rent",
+      "amenities": ["Gym", "Shared Pool", "Parking", "24/7 Security"],
+      "images": ["condo1_img1.jpg", "condo1_img2.jpg", "condo1_img3.jpg"],
+      "description": "A contemporary condo with modern amenities, offering comfort and convenience in a prime location.",
+      "agent": {
+        "name": "Leonardo DiCaprio",
+        "email": "leonardo.dicaprio@realestate.com",
+        "phone": "+254743456789",
+        "profilePicture": "agent16.jpg"
+      }
+    },
+    {
+      "id": 17,
+      "title": "Luxe Penthouse",
+      "location": "Westlands, Nairobi",
+      "price": 90000000,
+      "propertyType": "Penthouse",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "squareFootage": 4000,
+      "status": "For Sale",
+      "amenities": ["Private Elevator", "Rooftop Pool", "Home Theater", "City Views"],
+      "images": ["penthouse2_img1.jpg", "penthouse2_img2.jpg", "penthouse2_img3.jpg"],
+      "description": "A luxurious penthouse with exclusive amenities and stunning city views, perfect for high-end living.",
+      "agent": {
+        "name": "Will Smith",
+        "email": "will.smith@realestate.com",
+        "phone": "+254754321987",
+        "profilePicture": "agent17.jpg"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Luxury Mansion",
+      "location": "Karen, Nairobi",
+      "price": 100000000,
+      "propertyType": "Mansion",
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "squareFootage": 6000,
+      "status": "For Sale",
+      "amenities": ["Swimming Pool", "Gym", "Home Office", "Large Garden"],
+      "images": ["mansion2_img1.jpg", "mansion2_img2.jpg", "mansion2_img3.jpg"],
+      "description": "A luxury mansion with modern finishes, expansive living spaces, and top-notch amenities.",
+      "agent": {
+        "name": "Samuel L. Jackson",
+        "email": "samuel.jackson@realestate.com",
+        "phone": "+254765432109",
+        "profilePicture": "agent18.jpg"
+      }
+    },
+    {
+      "id": 19,
+      "title": "Beachside Bungalow",
+      "location": "Diani, Kenya",
+      "price": 35000000,
+      "propertyType": "Bungalow",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFootage": 2000,
+      "status": "For Sale",
+      "amenities": ["Private Beach Access", "Swimming Pool", "Outdoor Kitchen"],
+      "images": ["bungalow2_img1.jpg", "bungalow2_img2.jpg", "bungalow2_img3.jpg"],
+      "description": "A charming bungalow with private beach access, perfect for a relaxing seaside lifestyle.",
+      "agent": {
+        "name": "Robert Downey Jr.",
+        "email": "robert.downey@realestate.com",
+        "phone": "+254776543210",
+        "profilePicture": "agent19.jpg"
+      }
+    },
+    {
+      "id": 20,
+      "title": "Executive Apartment",
+      "location": "Kilimani, Nairobi",
+      "price": 32000000,
+      "propertyType": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "squareFootage": 1800,
+      "status": "For Rent",
+      "amenities": ["Gym", "Rooftop Terrace", "Parking"],
+      "images": ["apartment2_img1.jpg", "apartment2_img2.jpg", "apartment2_img3.jpg"],
+      "description": "An executive apartment with modern finishes, offering luxury and comfort in a prime location.",
+      "agent": {
+        "name": "Halle Berry",
+        "email": "halle.berry@realestate.com",
+        "phone": "+254787654321",
+        "profilePicture": "agent20.jpg"
+      }
+    },
+    {
+      "id": 21,
+      "title": "Country Home",
+      "location": "Nakuru, Kenya",
+      "price": 55000000,
+      "propertyType": "House",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "squareFootage": 4000,
+      "status": "For Sale",
+      "amenities": ["Large Garden", "Garage", "Guest House"],
+      "images": ["house3_img1.jpg", "house3_img2.jpg", "house3_img3.jpg"],
+      "description": "A peaceful country home with large outdoor spaces and scenic views.",
+      "agent": {
+        "name": "Denzel Washington",
+        "email": "denzel.washington@realestate.com",
+        "phone": "+254798765432",
+        "profilePicture": "agent21.jpg"
+      }
+    },
+  {
+      "id": 22,
+      "title": "Rustic Farmhouse",
+      "location": "Nanyuki, Kenya",
+      "price": 30000000,
+      "propertyType": "Farmhouse",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "squareFootage": 3500,
+      "status": "For Sale",
+      "amenities": ["Expansive Land", "Barn", "Fireplace", "Fruit Orchard"],
+      "images": ["farmhouse1_img1.jpg", "farmhouse1_img2.jpg", "farmhouse1_img3.jpg"],
+      "description": "A charming rustic farmhouse surrounded by nature, perfect for those seeking a tranquil rural lifestyle.",
+      "agent": {
+        "name": "Meryl Streep",
+        "email": "meryl.streep@realestate.com",
+        "phone": "+254709876543",
+        "profilePicture": "agent22.jpg"
+      }
+    },
+    {
+      "id": 23,
+      "title": "Urban Loft",
+      "location": "Upper Hill, Nairobi",
+      "price": 45000000,
+      "propertyType": "Loft",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFootage": 2000,
+      "status": "For Rent",
+      "amenities": ["Open Floor Plan", "High Ceilings", "Modern Kitchen", "City Views"],
+      "images": ["loft1_img1.jpg", "loft1_img2.jpg", "loft1_img3.jpg"],
+      "description": "A stylish urban loft with modern amenities and stunning city views, perfect for city living.",
+      "agent": {
+        "name": "Scarlett Johansson",
+        "email": "scarlett.johansson@realestate.com",
+        "phone": "+254719876543",
+        "profilePicture": "agent23.jpg"
+      }
+    },
+    {
+      "id": 24,
+      "title": "Luxury Townhouse",
+      "location": "Gigiri, Nairobi",
+      "price": 75000000,
+      "propertyType": "Townhouse",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "squareFootage": 4000,
+      "status": "For Sale",
+      "amenities": ["Gated Community", "Private Garden", "Home Office", "Security System"],
+      "images": ["townhouse1_img1.jpg", "townhouse1_img2.jpg", "townhouse1_img3.jpg"],
+      "description": "A luxury townhouse in a secure community, offering privacy and modern living spaces.",
+      "agent": {
+        "name": "George Clooney",
+        "email": "george.clooney@realestate.com",
+        "phone": "+254729876543",
+        "profilePicture": "agent24.jpg"
+      }
+    },
+    {
+      "id": 25,
+      "title": "Seaside Villa",
+      "location": "Malindi, Kenya",
+      "price": 85000000,
+      "propertyType": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "squareFootage": 5000,
+      "status": "For Sale",
+      "amenities": ["Beachfront", "Private Pool", "Outdoor Dining", "Tropical Garden"],
+      "images": ["villa4_img1.jpg", "villa4_img2.jpg", "villa4_img3.jpg"],
+      "description": "A stunning seaside villa with private beach access and luxurious amenities, perfect for a serene lifestyle.",
+      "agent": {
+        "name": "Angelina Jolie",
+        "email": "angelina.jolie@realestate.com",
+        "phone": "+254739876543",
+        "profilePicture": "agent25.jpg"
+      }
+    },
+    {
+      "id": 26,
+      "title": "Contemporary Penthouse",
+      "location": "Nairobi Central Business District",
+      "price": 120000000,
+      "propertyType": "Penthouse",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "squareFootage": 3500,
+      "status": "For Sale",
+      "amenities": ["Rooftop Garden", "Panoramic Views", "Private Elevator", "Jacuzzi"],
+      "images": ["penthouse1_img1.jpg", "penthouse1_img2.jpg", "penthouse1_img3.jpg"],
+      "description": "An ultra-modern penthouse with panoramic city views and luxurious features, perfect for high-end urban living.",
+      "agent": {
+        "name": "Leonardo DiCaprio",
+        "email": "leonardo.dicaprio@realestate.com",
+        "phone": "+254749876543",
+        "profilePicture": "agent26.jpg"
+      }
+    },
+    {
+      "id": 27,
+      "title": "Suburban Ranch",
+      "location": "Kericho, Kenya",
+      "price": 42000000,
+      "propertyType": "Ranch",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "squareFootage": 4000,
+      "status": "For Sale",
+      "amenities": ["Horse Stable", "Large Barn", "Fruit Orchard", "Private Lake"],
+      "images": ["ranch1_img1.jpg", "ranch1_img2.jpg", "ranch1_img3.jpg"],
+      "description": "A spacious suburban ranch with extensive land and equestrian facilities, ideal for country living enthusiasts.",
+      "agent": {
+        "name": "Tom Hanks",
+        "email": "tom.hanks@realestate.com",
+        "phone": "+254759876543",
+        "profilePicture": "agent27.jpg"
+      }
+    },
+    {
+      "id": 28,
+      "title": "Coastal Retreat",
+      "location": "Lamu, Kenya",
+      "price": 60000000,
+      "propertyType": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "squareFootage": 3000,
+      "status": "For Sale",
+      "amenities": ["Ocean Views", "Infinity Pool", "Outdoor Lounge", "Private Beach"],
+      "images": ["retreat1_img1.jpg", "retreat1_img2.jpg", "retreat1_img3.jpg"],
+      "description": "A luxurious coastal retreat with breathtaking ocean views and high-end amenities for a tranquil escape.",
+      "agent": {
+        "name": "Natalie Portman",
+        "email": "natalie.portman@realestate.com",
+        "phone": "+254769876543",
+        "profilePicture": "agent28.jpg"
+      }
+    },
+    {
+      "id": 29,
+      "title": "Modern Duplex",
+      "location": "Lang'ata, Nairobi",
+      "price": 32000000,
+      "propertyType": "Duplex",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "squareFootage": 2500,
+      "status": "For Rent",
+      "amenities": ["Private Garden", "Modern Kitchen", "Two Car Garage", "Security System"],
+      "images": ["duplex1_img1.jpg", "duplex1_img2.jpg", "duplex1_img3.jpg"],
+      "description": "A modern duplex with sleek design, private garden, and excellent amenities for a comfortable urban lifestyle.",
+      "agent": {
+        "name": "Brad Pitt",
+        "email": "brad.pitt@realestate.com",
+        "phone": "+254779876543",
+        "profilePicture": "agent29.jpg"
+      }
+    },
+    {
+      "id": 30,
+      "title": "Historical Mansion",
+      "location": "Mombasa, Kenya",
+      "price": 90000000,
+      "propertyType": "Mansion",
+      "bedrooms": 7,
+      "bathrooms": 6,
+      "squareFootage": 6000,
+      "status": "For Sale",
+      "amenities": ["Historical Architecture", "Grand Entrance Hall", "Swimming Pool", "Private Garden"],
+      "images": ["mansion1_img1.jpg", "mansion1_img2.jpg", "mansion1_img3.jpg"],
+      "description": "An exquisite historical mansion with grand architecture and luxurious amenities, perfect for a prestigious residence.",
+      "agent": {
+        "name": "Jennifer Lawrence",
+        "email": "jennifer.lawrence@realestate.com",
+        "phone": "+254789876543",
+        "profilePicture": "agent30.jpg"
+      }
+    },
+    {
+      "id": 31,
+      "title": "Charming Cottage",
+      "location": "Limuru, Kenya",
+      "price": 28000000,
+      "propertyType": "Cottage",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFootage": 1800,
+      "status": "For Sale",
+      "amenities": ["Country Views", "Fireplace", "Private Garden"],
+      "images": ["cottage2_img1.jpg", "cottage2_img2.jpg", "cottage2_img3.jpg"],
+      "description": "A quaint cottage with beautiful country views and a cozy fireplace, perfect for a relaxing retreat.",
+      "agent": {
+        "name": "Brad Pitt",
+        "email": "brad.pitt@realestate.com",
+        "phone": "+254749876543",
+        "profilePicture": "agent26.jpg"
+      }
+    },
+    {
+      "id": 32,
+      "title": "Modern Penthouse",
+      "location": "Nairobi CBD",
+      "price": 100000000,
+      "propertyType": "Penthouse",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "squareFootage": 3500,
+      "status": "For Sale",
+      "amenities": ["Rooftop Terrace", "Jacuzzi", "City Views", "Home Automation"],
+      "images": ["penthouse1_img1.jpg", "penthouse1_img2.jpg", "penthouse1_img3.jpg"],
+      "description": "An opulent penthouse with stunning city views, a private rooftop terrace, and luxurious amenities.",
+      "agent": {
+        "name": "Natalie Portman",
+        "email": "natalie.portman@realestate.com",
+        "phone": "+254759876543",
+        "profilePicture": "agent27.jpg"
+      }
+    },
+    {
+      "id": 33,
+      "title": "Suburban House",
+      "location": "Lang'ata, Nairobi",
+      "price": 42000000,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "squareFootage": 2700,
+      "status": "For Sale",
+      "amenities": ["Garden", "Garage", "Family Room", "Security"],
+      "images": ["house2_img1.jpg", "house2_img2.jpg", "house2_img3.jpg"],
+      "description": "A spacious suburban house with a large garden and family room, ideal for family living.",
+      "agent": {
+        "name": "Matt Damon",
+        "email": "matt.damon@realestate.com",
+        "phone": "+254769876543",
+        "profilePicture": "agent28.jpg"
+      }
+    },
+    {
+      "id": 34,
+      "title": "Luxury Studio",
+      "location": "Kilimani, Nairobi",
+      "price": 25000000,
+      "propertyType": "Studio",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFootage": 800,
+      "status": "For Rent",
+      "amenities": ["Gym", "Pool Access", "Modern Kitchen", "24/7 Security"],
+      "images": ["studio1_img1.jpg", "studio1_img2.jpg", "studio1_img3.jpg"],
+      "description": "A modern studio with access to gym facilities and a swimming pool, perfect for urban living.",
+      "agent": {
+        "name": "Reese Witherspoon",
+        "email": "reese.witherspoon@realestate.com",
+        "phone": "+254779876543",
+        "profilePicture": "agent29.jpg"
+      }
+    },
+    {
+      "id": 35,
+      "title": "Contemporary Loft",
+      "location": "Westlands, Nairobi",
+      "price": 37000000,
+      "propertyType": "Loft",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFootage": 2100,
+      "status": "For Rent",
+      "amenities": ["High Ceilings", "Rooftop Access", "Fitness Center", "Modern Appliances"],
+      "images": ["loft2_img1.jpg", "loft2_img2.jpg", "loft2_img3.jpg"],
+      "description": "A contemporary loft with modern appliances and high ceilings, offering a stylish urban lifestyle.",
+      "agent": {
+        "name": "Chris Hemsworth",
+        "email": "chris.hemsworth@realestate.com",
+        "phone": "+254789876543",
+        "profilePicture": "agent30.jpg"
+      }
+    },
+    {
+      "id": 36,
+      "title": "Luxury Loft",
+      "location": "Upper Hill, Nairobi",
+      "price": 55000000,
+      "propertyType": "Loft",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "squareFootage": 2800,
+      "status": "For Sale",
+      "amenities": ["Open Floor Plan", "Private Balcony", "High-End Appliances", "Fitness Center"],
+      "images": ["loft2_img1.jpg", "loft2_img2.jpg", "loft2_img3.jpg"],
+      "description": "A high-end luxury loft with an open floor plan, perfect for modern city living with access to exclusive amenities.",
+      "agent": {
+        "name": "Chris Hemsworth",
+        "email": "chris.hemsworth@realestate.com",
+        "phone": "+254789654321",
+        "profilePicture": "agent36.jpg"
+      }
+    },
+    {
+      "id": 37,
+      "title": "Charming Farmhouse",
+      "location": "Eldoret, Kenya",
+      "price": 38000000,
+      "propertyType": "Farmhouse",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "squareFootage": 3000,
+      "status": "For Sale",
+      "amenities": ["Large Farm", "Barn", "Fruit Trees", "Organic Garden"],
+      "images": ["farmhouse1_img1.jpg", "farmhouse1_img2.jpg", "farmhouse1_img3.jpg"],
+      "description": "A charming farmhouse with a large farm and organic garden, ideal for those seeking a countryside lifestyle.",
+      "agent": {
+        "name": "Emma Watson",
+        "email": "emma.watson@realestate.com",
+        "phone": "+254712987654",
+        "profilePicture": "agent37.jpg"
+      }
+    },
+    {
+      "id": 38,
+      "title": "Seaside Cottage",
+      "location": "Malindi, Kenya",
+      "price": 45000000,
+      "propertyType": "Cottage",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFootage": 1800,
+      "status": "For Sale",
+      "amenities": ["Beachfront Access", "Outdoor Deck", "Sea Views"],
+      "images": ["cottage2_img1.jpg", "cottage2_img2.jpg", "cottage2_img3.jpg"],
+      "description": "A picturesque seaside cottage with beachfront access and stunning sea views, perfect for a relaxing getaway.",
+      "agent": {
+        "name": "Ryan Reynolds",
+        "email": "ryan.reynolds@realestate.com",
+        "phone": "+254721987654",
+        "profilePicture": "agent38.jpg"
+      }
+    },
+    {
+      "id": 39,
+      "title": "City Center Penthouse",
+      "location": "Nairobi CBD",
+      "price": 150000000,
+      "propertyType": "Penthouse",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "squareFootage": 4000,
+      "status": "For Sale",
+      "amenities": ["Private Pool", "Rooftop Terrace", "Smart Home Features"],
+      "images": ["penthouse2_img1.jpg", "penthouse2_img2.jpg", "penthouse2_img3.jpg"],
+      "description": "An exclusive penthouse with a private pool and smart home features, offering luxury living in the heart of the city.",
+      "agent": {
+        "name": "Scarlett Johansson",
+        "email": "scarlett.johansson@realestate.com",
+        "phone": "+254738987654",
+        "profilePicture": "agent39.jpg"
+      }
+    },
+    {
+      "id": 40,
+      "title": "Elegant Estate",
+      "location": "Kisumu, Kenya",
+      "price": 70000000,
+      "propertyType": "Estate",
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "squareFootage": 5500,
+      "status": "For Sale",
+      "amenities": ["Swimming Pool", "Private Gardens", "Guest House", "Tennis Court"],
+      "images": ["estate2_img1.jpg", "estate2_img2.jpg", "estate2_img3.jpg"],
+      "description": "An elegant estate with extensive grounds and luxurious amenities, ideal for sophisticated living.",
+      "agent": {
+        "name": "Hugh Jackman",
+        "email": "hugh.jackman@realestate.com",
+        "phone": "+254723987654",
+        "profilePicture": "agent40.jpg"
+      }
+    },
+    {
+      "id": 41,
+      "title": "Chic City Apartment",
+      "location": "Nairobi CBD",
+      "price": 32000000,
+      "propertyType": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFootage": 1500,
+      "status": "For Rent",
+      "amenities": ["Modern Kitchen", "Gym", "24/7 Security"],
+      "images": ["apartment3_img1.jpg", "apartment3_img2.jpg", "apartment3_img3.jpg"],
+      "description": "A chic city apartment with modern amenities and security, perfect for urban living.",
+      "agent": {
+        "name": "Natalie Portman",
+        "email": "natalie.portman@realestate.com",
+        "phone": "+254735678912",
+        "profilePicture": "agent41.jpg"
+      }
+    },
+    {
+      "id": 42,
+      "title": "Elegant Villa",
+      "location": "Westlands, Nairobi",
+      "price": 70000000,
+      "propertyType": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "squareFootage": 3500,
+      "status": "For Sale",
+      "amenities": ["Infinity Pool", "Private Garden", "Home Theater"],
+      "images": ["villa3_img1.jpg", "villa3_img2.jpg", "villa3_img3.jpg"],
+      "description": "An elegant villa with an infinity pool and home theater, offering luxury and comfort.",
+      "agent": {
+        "name": "Chris Pratt",
+        "email": "chris.pratt@realestate.com",
+        "phone": "+254724567890",
+        "profilePicture": "agent42.jpg"
+      }
+    },
+    {
+      "id": 43,
+      "title": "Modern House",
+      "location": "Karen, Nairobi",
+      "price": 55000000,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "squareFootage": 2800,
+      "status": "For Sale",
+      "amenities": ["Smart Home Features", "Home Office", "Garden"],
+      "images": ["house2_img1.jpg", "house2_img2.jpg", "house2_img3.jpg"],
+      "description": "A modern house with smart home features and a garden, ideal for a contemporary lifestyle.",
+      "agent": {
+        "name": "Jessica Alba",
+        "email": "jessica.alba@realestate.com",
+        "phone": "+254722345678",
+        "profilePicture": "agent43.jpg"
+      }
+    },
+    {
+      "id": 44,
+      "title": "Cozy Studio",
+      "location": "Kilimani, Nairobi",
+      "price": 22000000,
+      "propertyType": "Studio",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFootage": 800,
+      "status": "For Rent",
+      "amenities": ["Furnished", "High-Speed Internet", "Parking"],
+      "images": ["studio1_img1.jpg", "studio1_img2.jpg", "studio1_img3.jpg"],
+      "description": "A cozy furnished studio with high-speed internet, perfect for singles or young professionals.",
+      "agent": {
+        "name": "Daniel Radcliffe",
+        "email": "daniel.radcliffe@realestate.com",
+        "phone": "+254726543210",
+        "profilePicture": "agent44.jpg"
+      }
+    },
+    {
+      "id": 45,
+      "title": "Spacious Townhouse",
+      "location": "Nairobi, Kenya",
+      "price": 40000000,
+      "propertyType": "Townhouse",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFootage": 2200,
+      "status": "For Sale",
+      "amenities": ["Private Courtyard", "Garage", "Community Pool"],
+      "images": ["townhouse1_img1.jpg", "townhouse1_img2.jpg", "townhouse1_img3.jpg"],
+      "description": "A spacious townhouse with a private courtyard and access to a community pool, ideal for families.",
+      "agent": {
+        "name": "Harrison Ford",
+        "email": "harrison.ford@realestate.com",
+        "phone": "+254739012345",
+        "profilePicture": "agent45.jpg"
+      }
+    },
+    {
+      "id": 46,
+      "title": "Luxurious Mansion",
+      "location": "Nakuru, Kenya",
+      "price": 90000000,
+      "propertyType": "Mansion",
+      "bedrooms": 7,
+      "bathrooms": 6,
+      "squareFootage": 6000,
+      "status": "For Sale",
+      "amenities": ["Indoor Pool", "Library", "Tennis Court"],
+      "images": ["mansion1_img1.jpg", "mansion1_img2.jpg", "mansion1_img3.jpg"],
+      "description": "A luxurious mansion with an indoor pool and library, offering opulent living in a serene location.",
+      "agent": {
+        "name": "Emma Stone",
+        "email": "emma.stone@realestate.com",
+        "phone": "+254724678901",
+        "profilePicture": "agent46.jpg"
+      }
+    },
+    {
+      "id": 47,
+      "title": "Urban Duplex",
+      "location": "Parklands, Nairobi",
+      "price": 35000000,
+      "propertyType": "Duplex",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "squareFootage": 2200,
+      "status": "For Sale",
+      "amenities": ["Rooftop Garden", "Modern Kitchen", "Fitness Center"],
+      "images": ["duplex1_img1.jpg", "duplex1_img2.jpg", "duplex1_img3.jpg"],
+      "description": "An urban duplex with a rooftop garden and modern kitchen, perfect for city dwellers.",
+      "agent": {
+        "name": "Ryan Gosling",
+        "email": "ryan.gosling@realestate.com",
+        "phone": "+254727654321",
+        "profilePicture": "agent47.jpg"
+      }
+    },
+    {
+      "id": 48,
+      "title": "Beach House",
+      "location": "Mombasa, Kenya",
+      "price": 50000000,
+      "propertyType": "Beach House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "squareFootage": 2700,
+      "status": "For Sale",
+      "amenities": ["Private Beach Access", "Outdoor Lounge", "Barbecue Area"],
+      "images": ["beachhouse1_img1.jpg", "beachhouse1_img2.jpg", "beachhouse1_img3.jpg"],
+      "description": "A beautiful beach house with private beach access and outdoor lounge, perfect for coastal living.",
+      "agent": {
+        "name": "Gwyneth Paltrow",
+        "email": "gwyneth.paltrow@realestate.com",
+        "phone": "+254735678901",
+        "profilePicture": "agent48.jpg"
+      }
+    },
+    {
+      "id": 49,
+      "title": "Contemporary Studio",
+      "location": "Nairobi, Kenya",
+      "price": 25000000,
+      "propertyType": "Studio",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFootage": 1000,
+      "status": "For Rent",
+      "amenities": ["Modern Design", "Gym Access", "Security"],
+      "images": ["studio2_img1.jpg", "studio2_img2.jpg", "studio2_img3.jpg"],
+      "description": "A contemporary studio with modern design and gym access, ideal for modern urban living.",
+      "agent": {
+        "name": "Tom Hardy",
+        "email": "tom.hardy@realestate.com",
+        "phone": "+254738765432",
+        "profilePicture": "agent49.jpg"
+      }
+    },
+    {
+      "id": 50,
+      "title": "Grand Country Home",
+      "location": "Kericho, Kenya",
+      "price": 65000000,
+      "propertyType": "Country Home",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "squareFootage": 4500,
+      "status": "For Sale",
+      "amenities": ["Private Pool", "Expansive Grounds", "Guest Quarters"],
+      "images": ["countryhome1_img1.jpg", "countryhome1_img2.jpg", "countryhome1_img3.jpg"],
+      "description": "A grand country home with expansive grounds and guest quarters, perfect for a luxurious rural lifestyle.",
+      "agent": {
+        "name": "Jennifer Lawrence",
+        "email": "jennifer.lawrence@realestate.com",
+        "phone": "+254724567890",
+        "profilePicture": "agent50.jpg"
+      }
+    }
+  ]
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

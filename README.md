@@ -30,11 +30,11 @@ This project is a web-based real estate management application that allows users
 
 ## Installation
 
-To get started with the Real Estate Management System, follow these steps:
+To get started with Home Hub, follow these steps:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/real-estate-management.git
+   git clone https://github.com/ImeldaHope/home-hub.git
    ```
 2. **Navigate to the Project Directory**
    ```bash
@@ -54,10 +54,10 @@ To get started with the Real Estate Management System, follow these steps:
 
 - `src/` - Contains the source code of the application.
   - `components/` - React components for the UI.
-  - `styles/` - CSS files for styling.
-  - `data/` - JSON files for property data.
+  - `styles/` - CSS files for styling.  
 - `public/` - Static files and assets.
 - `README.md` - This file.
+- `db.json/` - JSON files for property data.
 - `package.json` - Project dependencies and scripts.
 
 ## Data Format
@@ -131,10 +131,7 @@ This project is maintained by the following collaborators:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
-
 
 ---
 
-Thank you for using the Real Estate Management System! We hope you find it useful.
-```
+Thank you for using Home Hub! We hope you find it useful.
