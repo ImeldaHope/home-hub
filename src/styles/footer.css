@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    background-color: #242424;
+}
+
+.footer-text{
+    width: 30%;
+}
+
+.footer-links a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.after-footer{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    background-color: #1085FF;
+}
+
