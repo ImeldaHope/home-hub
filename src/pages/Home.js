@@ -1,8 +1,13 @@
 import React from 'react'
+import Hero from '../components/Hero'
+import PropertyTypeCard from '../components/PropertyTypeCard'
 
 function Home(){
   return (
-    <div>Home</div>
+    <>
+    <Hero />
+    <PropertyTypeCard />
+    </>
   )
 }
 

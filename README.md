@@ -1,15 +1,7 @@
-# HomeHub - Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-
 # HomeHub
+Live view: [Home Hub](https://github.com/ImeldaHope/home-hub)
+
+## Description
 
 Welcome to the Real Estate Management System! This project is designed to showcase various properties, including houses, apartments, villas, and more. It provides an easy-to-use interface for browsing, searching, and filtering properties.
 
@@ -125,12 +117,11 @@ This project is maintained by the following collaborators:
 - **Samson Njai** - https://github.com/nanoprogrammer
 - **Harmony Mukolwe** - https://github.com/SirHarmony
 - **Michael Shalom** - https://github.com/michae-shalom
-- **Anne Musau**  - 
+- **Anne Musau**  - https://github.com/AnneMusau
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 
 ---
 
