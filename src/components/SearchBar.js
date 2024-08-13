@@ -9,7 +9,7 @@ function SearchBar({ homehub }) {
   }
 
   const filteredProperties = homehub.filter((property) => {
-    const toLowerCaseSearch = search.toLocaleLowerCase();
+    const toLowerCaseSearch = search.toLowerCase();
     return (
       property.title.toLowerCase().includes(toLowerCaseSearch) ||
       property.location.toLowerCase().includes(toLowerCaseSearch) ||
@@ -31,7 +31,7 @@ function SearchBar({ homehub }) {
         />
       </form>
       <div className="search-results">
-        <ul>
+        <ol>
           {filteredProperties.map((property) => (
             <li key={property.id}>
               <h3>Title: {property.title}</h3>
@@ -41,7 +41,7 @@ function SearchBar({ homehub }) {
               <p>Price: {property.price}</p>
             </li>
           ))}
-        </ul>
+        </ol>
       </div>
     </div>
   );
