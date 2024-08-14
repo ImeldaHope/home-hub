@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import PropertyCard from '../components/PropertyCard';
-import SearchBar from '../components/SearchBar'
+import PropertyFilter from '../components/PropertyFilter';
+import SearchBar from '../components/SearchBar';
 import { useOutletContext } from 'react-router-dom';
 import "../styles/properties.css"
 
@@ -24,18 +25,22 @@ function Property() {
   });
 
   return (
-    <>
-      <h1>Property</h1>
-      <div>
+    <div className='properties-container'>
+      
+      <div className='properties-header'>  
+        <h1>All Properties </h1>      
         <SearchBar search={search} handleSearchChange={handleSearchChange}/>
-        
-        <div className="property-list">        
-          {filteredProperties.map((property) => (
-            <PropertyCard key={property.id} properties={property} />
-          ))}        
-        </div>
       </div>
-    </>
+      <div>
+        {/* <PropertyFilter filters={filters} handleChange={handleChange}/> */}
+      </div>
+      <div className="property-list">        
+        {filteredProperties.map((property) => (
+          <PropertyCard key={property.id} properties={property} />
+        ))}        
+      </div>
+      
+    </div>
   )
 }
 

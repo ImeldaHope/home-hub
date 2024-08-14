@@ -3,7 +3,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 30px;         
+    padding: 30px;
+    margin-block: 40px;         
 }
 
 .filter-div .filters{

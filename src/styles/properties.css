@@ -1,7 +1,49 @@
+.properties-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.properties-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 40px;
+}
+
 .property-list{
     display: grid;    
     grid-template-columns: repeat(3, 1fr); 
     row-gap: 50px; 
-    padding: 20px;    
+    column-gap: 50px;
+    padding: 20px;  
+    margin: 0 auto;      
 }
 
+.search-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+}
+
+.search-form {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+}
+
+.search-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #1085ff; /* Use a color from the same palette as the button */
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+    color: #333;             
+}
+
+.search-form input::placeholder {               
+    font-size: 16px;
+}

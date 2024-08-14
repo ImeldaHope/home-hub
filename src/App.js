@@ -13,9 +13,13 @@ function App() {
       .catch(error => console.error('Error fetching properties:', error));
   }, []);
   
+  function openWishlist(){
+    console.log('Opening wishlist')
+  }
+
   return (
     <div>                 
-      <NavBar />  
+      <NavBar openWishlist={openWishlist}/>  
       <Outlet context={properties}/> 
       <Footer />
     </div>

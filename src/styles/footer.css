@@ -4,17 +4,44 @@
     align-items: center;
     padding: 20px;
     color: #fff;
-    background-color: #242424;
+    background-color: #242424;    
+}
+
+.footer > * {
+    margin-inline: 40px;
 }
 
 .footer-text{
     width: 30%;
 }
 
+.footer-form input{
+    gap:0;
+    margin: 0;
+}
+
+.footer-form input[type = "submit"]{
+    color: #fff;
+    background-color: #1085FF;
+    border: none;
+}
+
+.footer-form input[type = "submit"]:hover{
+    color: #1085FF;
+    background-color: #fff;
+    font-weight: bold;
+}
+
 .footer-links a{
     display: block;
     color: #fff;
     text-decoration: none;
+}
+
+.footer-links a:hover{
+    color: #1085FF;
+    font-weight: bolder;
+    font-size: 1em;
 }
 
 .after-footer{

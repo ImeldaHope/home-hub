@@ -4,10 +4,6 @@
   align-items: flex-start;
 }
 
-.property_section {
-  padding: 20px;
-}
-
 .property_card {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
@@ -22,8 +18,9 @@
 }
 
 .property_card-content {
-  padding: 3rem 3.2rem 3.2rem 3.2rem;
+  padding: 2rem ;
 }
+
 
 .property_card-img_container {
   position: relative;
@@ -31,11 +28,40 @@
 
 .property_card-details_container{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
+  margin-block: 20px; 
 }
-.property_card-location {
+
+.beds, .bath, .plinth{
+  display: flex;
+  align-items: center;  
+  gap: 3px;
+}
+
+.view-property-btn {
+  display: block;
+  background-color: #1085ff;
+  color: #ffffff;
+  margin: 0 auto;  
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12pt;
+  cursor: pointer;  
+}
+
+.view-property-btn:active,
+.view-property-btn:hover {
+  background-color: #F5F5F5;
+  color: #1085ff;
   font-weight: bold;
+  transform: scale(1.05);
 }
+
+.property_card-location {
+  margin-block: 0;
+}
+
 .property_card-address_container .icon, .property_card-details_container .icon {
   width: 20px;
   height: 20px;
@@ -46,8 +72,19 @@
   width: 100%;
 }
 
-.property_card-address_container, .property_card-price{
-  display: flex;
+.property_card-address_container{
+  display: flex;  
+  align-items: center;
+}
+
+.property_card-price{
+  display: flex;  
+  align-items: center;
+  gap: 5px;
+}
+
+.property_card-price span{
+  font-weight: bold;
 }
 
 .property_card-price h3{

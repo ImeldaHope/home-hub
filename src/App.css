@@ -47,22 +47,6 @@ nav ul li a:hover {
 }
 
 
-/* SearchBar styles */
-.search-form-container {
-  height: fit-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-input#search {
-  padding: 0.5rem;
-  border-radius: 10px;
-  text-align: center;
-  background-color: rgb(245, 234, 234);
-}
-
-
 /* User section styles */
 .user-section {
   display: flex;

@@ -4,7 +4,7 @@ import '../styles/hero.css'
 function Hero() {
   return (
     <div className='hero'>
-        <div>        
+        <div className='hero-div'>        
             <small><em className='dash'>———</em> Find Your Dream Home Today</small>
             <p className='sub-header'>Your Fast-Track to Property Deals: </p>
             <h1>Buy, Rent, Sell</h1>

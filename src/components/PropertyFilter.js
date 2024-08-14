@@ -5,7 +5,7 @@ const PropertyFilter = ({ filters, handleChange}) => {
   return (
     <div className="filter-div">
       <div className="filter-title">
-        <h2>Find Property</h2>
+        <h2>Find <em>Property</em></h2>
       </div>
       <div className="filters">
         <div>

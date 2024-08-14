@@ -1,5 +1,6 @@
 import React from "react";
 import { IoLocationOutline, IoHeartCircleOutline } from "react-icons/io5";
+import { FaLocationDot } from "react-icons/fa6";
 import { LiaBedSolid } from "react-icons/lia";
 import { PiBathtub } from "react-icons/pi";
 import { TbRulerMeasure } from "react-icons/tb";
@@ -27,21 +28,20 @@ function PropertyCard({properties}) {
 
       <div className="property_card-content">
         <div className="property_card-details">
-          <p className="property_card-location">{properties.title}</p>
+          <h2 className="property_card-location">{properties.title}</h2>
           <div className="property_card-price">
-            <h3>Kes {properties.price}</h3>
+            <h3>Kes {properties.price}</h3> 
             {properties.status === "For Rent"? <span>/year</span> : null }
-          </div>
-
-          
+          </div>          
 
           <div className="property_card-address_container">
-            <IoLocationOutline className="location_icon icon" />
+            <FaLocationDot className="location_icon icon"/>
+            
             <p className="property_card-address">
               {properties.location}
             </p>
           </div>
-
+          <hr/>
           <div className="property_card-details_container">
             <div className="beds">
               <LiaBedSolid className="bed_icon icon" />
@@ -56,7 +56,7 @@ function PropertyCard({properties}) {
               <span>{properties.squareFootage} sqft</span>
             </div>
           </div>
-          <button>View Property</button>
+          <button className="view-property-btn">View Property</button>
         </div>
       </div>
     </div>
