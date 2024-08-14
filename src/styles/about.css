@@ -35,3 +35,55 @@
     line-height: 1.6;
   }
   
+  .about-container {
+    padding: 20px;
+  }
+  
+  .services,
+  .values,
+  .experts {
+    margin-bottom: 30px;
+  }
+  
+  .service,
+  .value,
+  .expert {
+    margin-bottom: 20px;
+  }
+  
+  .experts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .expert {
+    flex: 1 1 30%; /* Three experts per row */
+    text-align: center;
+  }
+  
+  .expert h4 {
+    color: #0056b3;
+    margin-top: 10px;
+  }
+  
+  .expert p {
+    color: #555;
+  }
+  
+  /* Circular Image Holder */
+  .expert .image-holder {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 10px;
+    background-color: #ddd;
+    border-radius: 50%; /* Makes the image holder circular */
+    overflow: hidden;
+  }
+  
+  .expert img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the whole holder */
+    display: block;
+  }

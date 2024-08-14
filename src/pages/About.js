@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/about.css";
+
 const About = () => {
   return (
     <div className="about-container">
@@ -8,7 +9,7 @@ const About = () => {
         HomeHub Real Estate is a full-service investment and advisory firm advising clients on their real estate strategies. We are recognized real estate consultants in Nairobi, Kenya, delivering the insights and experience needed to help private and institutional clients achieve their real estate investment objectives. Our consulting is guided by the regulations of the Estate Agents Act, 1984 CAP 533 Laws of Kenya, under which our principals are registered and fully insured.
       </p>
 
-      <h3>What We Do</h3>
+       <h3>What We Do</h3>
       <div className="services">
         <div className="service">
           <h4>Estate Agency</h4>
@@ -62,30 +63,48 @@ const About = () => {
       <h3>Some of Our Experts</h3>
       <div className="experts">
         <div className="expert">
+          <div className="image-holder">
+            <img src="https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imelda Hope" />
+          </div>
           <h4>Imelda Hope</h4>
           <p>Strategy / Management</p>
         </div>
 
         <div className="expert">
+          <div className="image-holder">
+            <img src="https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Michael Shalom" />
+          </div>
           <h4>Michael Shalom</h4>
           <p>Investment Consultant</p>
         </div>
 
         <div className="expert">
+          <div className="image-holder">
+            <img src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Samson Njai" />
+          </div>
           <h4>Samson Njai</h4>
           <p>Feasibility Study</p>
         </div>
 
         <div className="expert">
+          <div className="image-holder">
+            <img src="https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Harmony Mukolwe" />
+          </div>
           <h4>Harmony Mukolwe</h4>
           <p>Finance / Admin</p>
         </div>
 
         <div className="expert">
+          <div className="image-holder">
+            <img src="https://images.pexels.com/photos/764529/pexels-photo-764529.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Anne Masau" />
+          </div>
           <h4>Anne Masau</h4>
           <p>Property Management</p>
         </div>
         <div className="expert">
+          <div className="image-holder">
+            <img src="https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Peter Mbuthia" />
+          </div>
           <h4>Peter Mbuthia</h4>
           <p>Sales Associate</p>
         </div>
