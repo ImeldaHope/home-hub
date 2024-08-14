@@ -2,11 +2,11 @@ import React, { useState } from 'react'
 import PropertyCard from '../components/PropertyCard';
 import PropertyFilter from '../components/PropertyFilter';
 import SearchBar from '../components/SearchBar';
-import { useOutletContext } from 'react-router-dom';
+import { Outlet, useOutletContext } from 'react-router-dom';
 import "../styles/properties.css"
 
 function Property() {
-  const properties = useOutletContext() 
+  const {properties, handleLike} = useOutletContext() 
   const [search, setSearch] = useState("");
 
   function handleSearchChange(event) {
@@ -31,12 +31,13 @@ function Property() {
         <h1>All Properties </h1>      
         <SearchBar search={search} handleSearchChange={handleSearchChange}/>
       </div>
+      <Outlet context={properties}/>
       <div>
         {/* <PropertyFilter filters={filters} handleChange={handleChange}/> */}
       </div>
       <div className="property-list">        
         {filteredProperties.map((property) => (
-          <PropertyCard key={property.id} properties={property} />
+          <PropertyCard key={property.id} properties={property} handleLike={handleLike}/>
         ))}        
       </div>
       

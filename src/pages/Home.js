@@ -7,8 +7,9 @@ import "../styles/home.css"
 import { useOutletContext } from 'react-router-dom'
 
 function Home(){
-  const properties = useOutletContext();
+  const {properties, handleLike} = useOutletContext();
   const [type, setType] = useState("");
+  
   
   const [filters, setFilters] = useState({
     location: '',
@@ -19,6 +20,7 @@ function Home(){
   });
 
   const [currentPage, setCurrentPage] = useState(1);
+
   const propertiesPerPage = 6;
 
   function handleTypeClick(e){
@@ -77,7 +79,7 @@ function Home(){
       </div>
       <div className='filtered-map'>
         {paginatedProperties.map((property) => (
-          <PropertyCard key={property.id} properties={property} />
+          <PropertyCard key={property.id} properties={property} handleLike={handleLike}/>
         ))}
       </div>
       <div className='pagination-controls'>

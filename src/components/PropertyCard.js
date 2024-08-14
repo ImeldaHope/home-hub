@@ -1,14 +1,14 @@
 import React from "react";
-import { IoLocationOutline, IoHeartCircleOutline } from "react-icons/io5";
+import { IoHeartCircleOutline } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 import { LiaBedSolid } from "react-icons/lia";
 import { PiBathtub } from "react-icons/pi";
 import { TbRulerMeasure } from "react-icons/tb";
 import "../styles/card.css";
 
-function PropertyCard({properties}) {
+function PropertyCard({properties, handleLike}) {
   return (
-    <div className="property_card">
+    <div className="property_card" id={properties.id}>
       <div className="property_card-img_container">
         <img
           className="property_card-img"
@@ -18,7 +18,8 @@ function PropertyCard({properties}) {
         />
         <IoHeartCircleOutline
           className="like_icon icon"
-          style={{ color: "#ffffff" }}
+          style={{ color: "#ffffff" }}  
+          onClick={(e) => handleLike(e)}        
         />
         <div className="property_card-tags">
           <small>{properties.status}</small>
@@ -56,7 +57,7 @@ function PropertyCard({properties}) {
               <span>{properties.squareFootage} sqft</span>
             </div>
           </div>
-          <button className="view-property-btn">View Property</button>
+          <button className="view-property-btn" >View Property</button>
         </div>
       </div>
     </div>
