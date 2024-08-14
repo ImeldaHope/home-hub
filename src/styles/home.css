@@ -1,0 +1,61 @@
+.type-section h2, .type-section small{
+    display: block;
+    text-align: center;
+}
+
+.type-div{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.filtered-map{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+
+.filtered-map > * {
+    margin: 20px;
+    gap: 20px;
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between buttons */
+    margin: 20px 0; /* Space above and below the pagination controls */
+  }
+  
+  .pagination-controls button {
+    background-color: #F5F5F5;
+    color: #1085FF;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .pagination-controls button:disabled {
+    background-color: #E0E0E0;
+    color: #B0B0B0;
+    cursor: not-allowed;
+  }
+  
+  .pagination-controls button.active {
+    background-color: #F5F5F5;
+    color: #1085FF;
+    font-weight: bold;
+  }
+  
+  .pagination-controls button:hover:not(:disabled),
+  .pagination-controls button:focus:not(:disabled) {
+    background-color: #0F6BCC;
+    color: #FFFFFF;
+  }
+  

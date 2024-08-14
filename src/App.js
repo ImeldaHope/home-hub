@@ -1,32 +1,23 @@
 import React, { useEffect, useState } from "react";
-import './App.css';
-
-import PropertyFilter from "./components/PropertyFilter";
-import NavBar from './components/Navbar';
 import Footer from './components/Footer';
-import Home from './pages/Home';
-
+import NavBar from './components/NavBar';
+import { Outlet } from "react-router-dom";
 
 function App() {
   const [properties, setProperties] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8001/homehub')
+    fetch('http://localhost:3001/homehub')
       .then(response => response.json())
       .then(data => setProperties(data))
       .catch(error => console.error('Error fetching properties:', error));
   }, []);
-
+  
   return (
-
-    <div>
-      <h1>HomeHub</h1>  
-      <PropertyFilter properties={properties} />    
-    
-      <header>
-        <NavBar />
-      </header>
-
+    <div>                 
+      <NavBar />  
+      <Outlet context={properties}/> 
+      <Footer />
     </div>
   );
 }

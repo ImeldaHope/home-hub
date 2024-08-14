@@ -1,25 +1,24 @@
-import React from "react"
-import SearchBar from "./SearchBar";
+import React from "react";
 import UserSection from "./UserSection";
+import '../styles/navbar.css';
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-
-    <>
-    <div id="logo-div">
-        <h3>HomeHub</h3>
-    </div>
-    
-    <nav>
-        <ul>
-            <li><a href="/">Home</a> </li>
-            <li><a href="/about">About</a> </li>
-            <li><a href="/properties">Properties</a> </li>
-        </ul>
-    </nav>
-    <SearchBar />
-    <UserSection />
-    </>
+    <header>
+      <div id="logo-div">
+          <h1>Home<em>Hub</em></h1>
+      </div>    
+      <nav>
+          <ul>          
+              <li><NavLink to="/">Home</NavLink> </li>
+              <li><NavLink to="/properties">Properties</NavLink> </li>
+              <li><NavLink to="/about">About</NavLink> </li>
+              
+          </ul>
+      </nav>    
+      <UserSection />
+    </header>
     
   )
 }

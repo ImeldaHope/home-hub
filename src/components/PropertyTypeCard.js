@@ -1,15 +1,15 @@
-import React from 'react'
-import '../styles/property-type-card.css'
+import React from 'react';
+import '../styles/property-type-card.css';
+import { HiHomeModern } from "react-icons/hi2";
 
-function PropertyTypeCard() {
+function PropertyTypeCard({type, count, handleClick}) {  
   return (
-    <section>
-        <small><em className='dash'>———</em> Property Types</small>
-        <h2>Explore Property <em>Types</em></h2>
-        <div className='main-type'>        
+    <section>        
+        <div className='main-type' onClick={(e) => handleClick(e)} type={type}>        
             <div className='type-card'>
-                <h5>Apartments</h5>
-                <p>300 Properties</p>
+                <HiHomeModern className='house-icon'/>
+                <h5>{type}</h5>
+                <p>{count} {type}s</p>
             </div>
         </div>
     </section>

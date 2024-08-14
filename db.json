@@ -1,4 +1,5 @@
-{ "homehub" : [
+{
+  "homehub": [
     {
       "id": 1,
       "title": "Modern Family Home",
@@ -10,7 +11,11 @@
       "squareFootage": 2500,
       "status": "For Sale",
       "amenities": ["Garden", "Garage", "Swimming Pool", "Home Office"],
-      "images": ["house1_img1.jpg", "house1_img2.jpg", "house1_img3.jpg"],
+      "images": [
+        "https://img.freepik.com/free-photo/modern-architecture-reflects-illuminated-swimming-pool-dusk-generated-by-artificial-intelligence_188544-150826.jpg?t=st=1723573054~exp=1723576654~hmac=662480af2378c22d60964ec420ea0b5316672372889b4784be0eb45f95ea4d31&w=1060",
+        "https://unsplash.com/photos/brown-leather-sofa-and-two-pink-sofa-chair-6CJg-fOTYs4",
+        "https://unsplash.com/photos/gray-steel-3-door-refrigerator-near-modular-kitchen-MP0bgaS_d1c"
+      ],
       "description": "A spacious modern family home with a large garden, perfect for a growing family.",
       "agent": {
         "name": "John Doe",
@@ -30,7 +35,11 @@
       "squareFootage": 1800,
       "status": "For Rent",
       "amenities": ["24/7 Security", "Gym", "Swimming Pool", "Parking"],
-      "images": ["apartment1_img1.jpg", "apartment1_img2.jpg", "apartment1_img3.jpg"],
+      "images": [
+        "https://images.pexels.com/photos/323775/pexels-photo-323775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1528255671579-01b9e182ed1d?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
       "description": "A luxurious apartment with stunning city views, modern amenities, and security.",
       "agent": {
         "name": "Jane Smith",
@@ -50,7 +59,11 @@
       "squareFootage": 1500,
       "status": "For Sale",
       "amenities": ["Fireplace", "Private Garden", "Gated Community"],
-      "images": ["cottage1_img1.jpg", "cottage1_img2.jpg", "cottage1_img3.jpg"],
+      "images": [
+        "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/3797991/pexels-photo-3797991.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A charming cottage nestled in a serene environment, ideal for a peaceful retreat.",
       "agent": {
         "name": "Emily Brown",
@@ -69,8 +82,17 @@
       "bathrooms": 4,
       "squareFootage": 4000,
       "status": "For Sale",
-      "amenities": ["Private Beach Access", "Infinity Pool", "Outdoor Kitchen", "Guest House"],
-      "images": ["villa1_img1.jpg", "villa1_img2.jpg", "villa1_img3.jpg"],
+      "amenities": [
+        "Private Beach Access",
+        "Infinity Pool",
+        "Outdoor Kitchen",
+        "Guest House"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/2343465/pexels-photo-2343465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A stunning beachfront villa with private access to the beach, perfect for luxury living.",
       "agent": {
         "name": "Michael Johnson",
@@ -90,7 +112,11 @@
       "squareFootage": 2000,
       "status": "For Rent",
       "amenities": ["Rooftop Terrace", "High Ceilings", "Fitness Center"],
-      "images": ["loft1_img1.jpg", "loft1_img2.jpg", "loft1_img3.jpg"],
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1661915661139-5b6a4e4a6fcc?q=80&w=1567&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/1457841/pexels-photo-1457841.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/534151/pexels-photo-534151.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ],
       "description": "A trendy urban loft with open floor plans, ideal for modern city living.",
       "agent": {
         "name": "Sarah Lee",
@@ -110,7 +136,11 @@
       "squareFootage": 5000,
       "status": "For Sale",
       "amenities": ["Horse Stables", "Tennis Court", "Private Lake", "Helipad"],
-      "images": ["estate1_img1.jpg", "estate1_img2.jpg", "estate1_img3.jpg"],
+      "images": [
+        "https://images.unsplash.com/photo-1492889971304-ac16ab4a4a5a?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/276554/pexels-photo-276554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A sprawling country estate with extensive grounds, ideal for a luxurious rural lifestyle.",
       "agent": {
         "name": "David White",
@@ -129,8 +159,17 @@
       "bathrooms": 4,
       "squareFootage": 3000,
       "status": "For Sale",
-      "amenities": ["Private Elevator", "Rooftop Pool", "City Views", "Home Theater"],
-      "images": ["penthouse1_img1.jpg", "penthouse1_img2.jpg", "penthouse1_img3.jpg"],
+      "amenities": [
+        "Private Elevator",
+        "Rooftop Pool",
+        "City Views",
+        "Home Theater"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/259580/pexels-photo-259580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/4030908/pexels-photo-4030908.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A luxurious penthouse suite with breathtaking city views and exclusive amenities.",
       "agent": {
         "name": "Alice Green",
@@ -150,7 +189,11 @@
       "squareFootage": 3500,
       "status": "For Sale",
       "amenities": ["Hiking Trails", "Fireplace", "Spa", "Scenic Views"],
-      "images": ["retreat1_img1.jpg", "retreat1_img2.jpg", "retreat1_img3.jpg"],
+      "images": [
+        "https://images.unsplash.com/photo-1485996463739-9cb09adbe6c5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/275484/pexels-photo-275484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/342800/pexels-photo-342800.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A peaceful mountain retreat surrounded by nature, perfect for relaxation and adventure.",
       "agent": {
         "name": "Chris Brown",
@@ -169,8 +212,16 @@
       "bathrooms": 3,
       "squareFootage": 2800,
       "status": "For Sale",
-      "amenities": ["Solar Panels", "Rainwater Harvesting", "Energy Efficient Appliances"],
-      "images": ["villa2_img1.jpg", "villa2_img2.jpg", "villa2_img3.jpg"],
+      "amenities": [
+        "Solar Panels",
+        "Rainwater Harvesting",
+        "Energy Efficient Appliances"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/4030908/pexels-photo-4030908.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A modern eco-friendly villa with sustainable features and beautiful design.",
       "agent": {
         "name": "Daniel Craig",
@@ -190,7 +241,11 @@
       "squareFootage": 800,
       "status": "For Rent",
       "amenities": ["Central Location", "Modern Kitchen", "Balcony"],
-      "images": ["studio1_img1.jpg", "studio1_img2.jpg", "studio1_img3.jpg"],
+      "images": [
+        "https://images.unsplash.com/photo-1576941089067-2de3c901e126?q=80&w=1578&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/2089696/pexels-photo-2089696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A stylish city studio with modern finishes, ideal for a single professional or couple.",
       "agent": {
         "name": "Eva Mendes",
@@ -209,8 +264,17 @@
       "bathrooms": 6,
       "squareFootage": 6000,
       "status": "For Sale",
-      "amenities": ["Private Dock", "Boat House", "Guest House", "Infinity Pool"],
-      "images": ["mansion1_img1.jpg", "mansion1_img2.jpg", "mansion1_img3.jpg"],
+      "amenities": [
+        "Private Dock",
+        "Boat House",
+        "Guest House",
+        "Infinity Pool"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A luxurious lakefront mansion with private access to the lake and extensive amenities.",
       "agent": {
         "name": "Tom Hanks",
@@ -230,7 +294,11 @@
       "squareFootage": 3200,
       "status": "For Rent",
       "amenities": ["Gated Community", "Shared Pool", "Private Balcony"],
-      "images": ["duplex1_img1.jpg", "duplex1_img2.jpg", "duplex1_img3.jpg"],
+      "images": [
+        "https://media.istockphoto.com/id/876864896/photo/luxurious-new-construction-home-in-bellevue-wa.jpg?s=612x612&w=is&k=20&c=qQGnkIlITdtcC_P5_A_HwhUh7pGvOwPe9vnMLlaItjA=",
+        "https://media.istockphoto.com/id/1293762741/photo/modern-living-room-interior-3d-render.jpg?s=1024x1024&w=is&k=20&c=KJNOdrG3iN0AKdcQfg65atySC1HLFgbikY2DEAkJDPE=",
+        "https://media.istockphoto.com/id/1357529222/photo/3d-rendering-of-a-dining-area-in-modern-kitchen.jpg?s=612x612&w=is&k=20&c=Xg-ff6gcx14PpaUpaEn6-T0AjzXv9haX5ScFJnRezU0="
+      ],
       "description": "A modern duplex in a secure community, offering comfort and convenience.",
       "agent": {
         "name": "Jennifer Lawrence",
@@ -249,8 +317,16 @@
       "bathrooms": 4,
       "squareFootage": 4500,
       "status": "For Sale",
-      "amenities": ["Cultural Significance", "Traditional Architecture", "Private Courtyard"],
-      "images": ["villa3_img1.jpg", "villa3_img2.jpg", "villa3_img3.jpg"],
+      "amenities": [
+        "Cultural Significance",
+        "Traditional Architecture",
+        "Private Courtyard"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/209315/pexels-photo-209315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/90317/pexels-photo-90317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1571461/pexels-photo-1571461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A historic villa with rich cultural heritage, offering a unique living experience.",
       "agent": {
         "name": "Brad Pitt",
@@ -270,7 +346,11 @@
       "squareFootage": 2000,
       "status": "For Sale",
       "amenities": ["Gated Community", "Modern Finishes", "Garden"],
-      "images": ["bungalow1_img1.jpg", "bungalow1_img2.jpg", "bungalow1_img3.jpg"],
+      "images": [
+        "https://media.istockphoto.com/id/1282518866/photo/3d-rendering-of-modern-house-in-luxurious-style.jpg?s=1024x1024&w=is&k=20&c=-Ez6yfoFb_iDreaZyA7ORi0CCEfajrb-scLZSd41eP4=",
+        "https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1909791/pexels-photo-1909791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A modern bungalow with contemporary design and comfortable living spaces.",
       "agent": {
         "name": "Charlize Theron",
@@ -290,7 +370,11 @@
       "squareFootage": 3500,
       "status": "For Sale",
       "amenities": ["Garage", "Garden", "Home Office", "Playground"],
-      "images": ["house2_img1.jpg", "house2_img2.jpg", "house2_img3.jpg"],
+      "images": [
+        "https://media.istockphoto.com/id/1286710375/photo/3d-rendering-of-modern-house-in-luxurious-style.jpg?s=1024x1024&w=is&k=20&c=frU98ruZhfnmF7ncx8y40jcWl96VIsL2FLgkMTLVQE4=",
+        "https://images.pexels.com/photos/2507016/pexels-photo-2507016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/534116/pexels-photo-534116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A spacious suburban home with ample space for a large family, located in a friendly community.",
       "agent": {
         "name": "Morgan Freeman",
@@ -310,7 +394,11 @@
       "squareFootage": 1800,
       "status": "For Rent",
       "amenities": ["Gym", "Shared Pool", "Parking", "24/7 Security"],
-      "images": ["condo1_img1.jpg", "condo1_img2.jpg", "condo1_img3.jpg"],
+      "images": [
+        "https://media.istockphoto.com/id/938272734/photo/3d-rendering-of-modern-cozy-house-by-the-river.jpg?s=1024x1024&w=is&k=20&c=tlu7oEA125fnzwdGkw3mBKA_HA4v5LbtXIgRq2B8vO8=",
+        "https://images.pexels.com/photos/2134224/pexels-photo-2134224.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/3965521/pexels-photo-3965521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A contemporary condo with modern amenities, offering comfort and convenience in a prime location.",
       "agent": {
         "name": "Leonardo DiCaprio",
@@ -329,8 +417,17 @@
       "bathrooms": 5,
       "squareFootage": 4000,
       "status": "For Sale",
-      "amenities": ["Private Elevator", "Rooftop Pool", "Home Theater", "City Views"],
-      "images": ["penthouse2_img1.jpg", "penthouse2_img2.jpg", "penthouse2_img3.jpg"],
+      "amenities": [
+        "Private Elevator",
+        "Rooftop Pool",
+        "Home Theater",
+        "City Views"
+      ],
+      "images": [
+        "https://i.pinimg.com/564x/1a/a9/34/1aa9346757fcd8194d033d83bbce5d47.jpg",
+        "https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A luxurious penthouse with exclusive amenities and stunning city views, perfect for high-end living.",
       "agent": {
         "name": "Will Smith",
@@ -350,7 +447,11 @@
       "squareFootage": 6000,
       "status": "For Sale",
       "amenities": ["Swimming Pool", "Gym", "Home Office", "Large Garden"],
-      "images": ["mansion2_img1.jpg", "mansion2_img2.jpg", "mansion2_img3.jpg"],
+      "images": [
+        "https://i.pinimg.com/564x/e8/b5/6e/e8b56e96eca2098eeab08748fa7a8699.jpg",
+        "https://images.pexels.com/photos/1599791/pexels-photo-1599791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/237371/pexels-photo-237371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A luxury mansion with modern finishes, expansive living spaces, and top-notch amenities.",
       "agent": {
         "name": "Samuel L. Jackson",
@@ -370,7 +471,11 @@
       "squareFootage": 2000,
       "status": "For Sale",
       "amenities": ["Private Beach Access", "Swimming Pool", "Outdoor Kitchen"],
-      "images": ["bungalow2_img1.jpg", "bungalow2_img2.jpg", "bungalow2_img3.jpg"],
+      "images": [
+        "https://i.pinimg.com/564x/d1/66/bc/d166bca6e8231faf850c220e94a29d14.jpg",
+        "https://i.pinimg.com/564x/e2/de/cb/e2decb5819211d0e420727710409c0f9.jpg",
+        "https://images.pexels.com/photos/280232/pexels-photo-280232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A charming bungalow with private beach access, perfect for a relaxing seaside lifestyle.",
       "agent": {
         "name": "Robert Downey Jr.",
@@ -390,7 +495,11 @@
       "squareFootage": 1800,
       "status": "For Rent",
       "amenities": ["Gym", "Rooftop Terrace", "Parking"],
-      "images": ["apartment2_img1.jpg", "apartment2_img2.jpg", "apartment2_img3.jpg"],
+      "images": [
+        "https://i.pinimg.com/564x/ab/5c/2c/ab5c2ce9fc68960f631a6cc8d3a6b196.jpg",
+        "https://images.pexels.com/photos/94865/pexels-photo-94865.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "An executive apartment with modern finishes, offering luxury and comfort in a prime location.",
       "agent": {
         "name": "Halle Berry",
@@ -410,7 +519,11 @@
       "squareFootage": 4000,
       "status": "For Sale",
       "amenities": ["Large Garden", "Garage", "Guest House"],
-      "images": ["house3_img1.jpg", "house3_img2.jpg", "house3_img3.jpg"],
+      "images": [
+        "https://img.freepik.com/free-photo/movie-night-by-pool-whole-family_1268-31098.jpg?t=st=1723562691~exp=1723566291~hmac=ab054be9f1303c840f6df408749bbf1cadebb74935b8a0466b7327c294d1fc29&w=826",
+        "https://img.freepik.com/free-photo/empty-modern-room-with-furniture_23-2149178336.jpg?t=st=1723564163~exp=1723567763~hmac=ebdc3cb78c1be09d1f1931beeb2c03df4180aa3aa6a262822b055f048c3957ca&w=740",
+        "https://img.freepik.com/free-photo/retro-bathroom-authentic-interior-design_53876-111133.jpg?t=st=1723564217~exp=1723567817~hmac=5d5e6b1c3b8fdb3569ed27cdd68f0b40bf88b8fb7ea6b98c5c0a936745dc6917&w=740"
+      ],
       "description": "A peaceful country home with large outdoor spaces and scenic views.",
       "agent": {
         "name": "Denzel Washington",
@@ -419,7 +532,7 @@
         "profilePicture": "agent21.jpg"
       }
     },
-  {
+    {
       "id": 22,
       "title": "Rustic Farmhouse",
       "location": "Nanyuki, Kenya",
@@ -430,7 +543,11 @@
       "squareFootage": 3500,
       "status": "For Sale",
       "amenities": ["Expansive Land", "Barn", "Fireplace", "Fruit Orchard"],
-      "images": ["farmhouse1_img1.jpg", "farmhouse1_img2.jpg", "farmhouse1_img3.jpg"],
+      "images": [
+        "https://img.freepik.com/free-photo/3d-house-model-with-modern-architecture_23-2151004062.jpg?t=st=1723564300~exp=1723567900~hmac=10698f4a7c6325ded8e60cace8347ba40a818fb3d082b57fbcaf93e3792f22ba&w=826",
+        "https://img.freepik.com/free-photo/3d-rendering-white-wood-living-room-near-bedroom-upstair_105762-2197.jpg?t=st=1723564333~exp=1723567933~hmac=364c052c0c21873e2c1c1f7c7f2aeb8e75ea1f7439f4581ff8979ba95d18299c&w=740",
+        "https://img.freepik.com/free-photo/bangkok-thailand-august-12-2016-beautiful-luxury-living-room_1203-2721.jpg?t=st=1723564459~exp=1723568059~hmac=4cf4673e1d73ea56a08587a5d5ac831468e60b659225aa32ec833763694f57d3&w=740"
+      ],
       "description": "A charming rustic farmhouse surrounded by nature, perfect for those seeking a tranquil rural lifestyle.",
       "agent": {
         "name": "Meryl Streep",
@@ -449,8 +566,17 @@
       "bathrooms": 2,
       "squareFootage": 2000,
       "status": "For Rent",
-      "amenities": ["Open Floor Plan", "High Ceilings", "Modern Kitchen", "City Views"],
-      "images": ["loft1_img1.jpg", "loft1_img2.jpg", "loft1_img3.jpg"],
+      "amenities": [
+        "Open Floor Plan",
+        "High Ceilings",
+        "Modern Kitchen",
+        "City Views"
+      ],
+      "images": [
+        "https://img.freepik.com/free-photo/3d-rendering-abstract-building_23-2150896714.jpg?t=st=1723564489~exp=1723568089~hmac=7ee411ee00c6d76b9e1fa1f5f79bf9c1375e679c3d8d3ccf8f0627e9ec63d442&w=740",
+        "https://img.freepik.com/free-photo/lounge-lobby-area-library-sales-center_105762-1780.jpg?t=st=1723564525~exp=1723568125~hmac=f10fb6f8d96223dacf528f4ace1a8128197fab6cca3b8e4355f7038d2820349b&w=740",
+        "https://img.freepik.com/free-photo/rustic-metal-chairs-adorn-modern-dining-table-cozy-pub-generated-by-ai_24640-100742.jpg?t=st=1723564587~exp=1723568187~hmac=43e075c3f462e7949a9737f405885788a43dc90f83fdb1bc1528b337d671191a&w=740"
+      ],
       "description": "A stylish urban loft with modern amenities and stunning city views, perfect for city living.",
       "agent": {
         "name": "Scarlett Johansson",
@@ -469,8 +595,17 @@
       "bathrooms": 4,
       "squareFootage": 4000,
       "status": "For Sale",
-      "amenities": ["Gated Community", "Private Garden", "Home Office", "Security System"],
-      "images": ["townhouse1_img1.jpg", "townhouse1_img2.jpg", "townhouse1_img3.jpg"],
+      "amenities": [
+        "Gated Community",
+        "Private Garden",
+        "Home Office",
+        "Security System"
+      ],
+      "images": [
+        "https://img.freepik.com/free-photo/landscape-sunset-architectural-matrix-stunning-modern-villa-with-swimming-pool_1409-5155.jpg?t=st=1723564727~exp=1723568327~hmac=f55e25fea2ab0d9372926adf4b0e6b7db0f9da6fc503052763a7f15874d987b8&w=826",
+        "https://img.freepik.com/free-photo/3d-room-interior-with-classic-design-furniture_23-2150895587.jpg?t=st=1723567274~exp=1723570874~hmac=155e8ac21f9342bb7a57baa41dde01455db839a5df0470e46296c5769194a35b&w=740",
+        "https://img.freepik.com/free-photo/realistic-modern-interior-design_23-2151439845.jpg?t=st=1723567424~exp=1723571024~hmac=9724736de81c157bfcdb72179248b0f76e4a4360e6ae1a5a30a80f5a68ab56ff&w=740"
+      ],
       "description": "A luxury townhouse in a secure community, offering privacy and modern living spaces.",
       "agent": {
         "name": "George Clooney",
@@ -489,8 +624,17 @@
       "bathrooms": 5,
       "squareFootage": 5000,
       "status": "For Sale",
-      "amenities": ["Beachfront", "Private Pool", "Outdoor Dining", "Tropical Garden"],
-      "images": ["villa4_img1.jpg", "villa4_img2.jpg", "villa4_img3.jpg"],
+      "amenities": [
+        "Beachfront",
+        "Private Pool",
+        "Outdoor Dining",
+        "Tropical Garden"
+      ],
+      "images": [
+        "https://img.freepik.com/free-photo/3d-model-house-building_23-2150761004.jpg?t=st=1723567540~exp=1723571140~hmac=4c68b7e64dc131bcee0680c7c192bd47c29436bf98c7a0ff30771acb562d5e27&w=740",
+        "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv-working-table_105762-2016.jpg?t=st=1723567579~exp=1723571179~hmac=1e059aaf09b883c3fc55efcd338fd3bec2cd36cddb5aa158b1d2181306c26197&w=740",
+        "https://img.freepik.com/free-photo/3d-rendering-luxury-modern-living-room-with-leather-sofa-lamp_105762-2255.jpg?t=st=1723567616~exp=1723571216~hmac=9543a393c3dfc35afc066ce3bc8f6559c88f2bed9e02b9cd1b2130801e6f3231&w=740"
+      ],
       "description": "A stunning seaside villa with private beach access and luxurious amenities, perfect for a serene lifestyle.",
       "agent": {
         "name": "Angelina Jolie",
@@ -509,8 +653,17 @@
       "bathrooms": 4,
       "squareFootage": 3500,
       "status": "For Sale",
-      "amenities": ["Rooftop Garden", "Panoramic Views", "Private Elevator", "Jacuzzi"],
-      "images": ["penthouse1_img1.jpg", "penthouse1_img2.jpg", "penthouse1_img3.jpg"],
+      "amenities": [
+        "Rooftop Garden",
+        "Panoramic Views",
+        "Private Elevator",
+        "Jacuzzi"
+      ],
+      "images": [
+        "https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?t=st=1723567651~exp=1723571251~hmac=9e318307db965119aec6dc04d48e4dc360191cea19739eca4dd17d441766c86e&w=740",
+        "https://img.freepik.com/free-photo/anti-dandruff-products-by-bathroom-sink_23-2149345771.jpg?t=st=1723567769~exp=1723571369~hmac=25aba728b41205518db4bb578c9aee827bc10efb363edc5415467617caa47e7c&w=740",
+        "https://img.freepik.com/free-psd/bathtub-with-curtain-cupboard-shower_176382-1751.jpg?t=st=1723567809~exp=1723571409~hmac=731671d0ca3d64f6d202a0bd458dd4d84e25dbc9eae2bebdcac2ad8fec3f0677&w=740"
+      ],
       "description": "An ultra-modern penthouse with panoramic city views and luxurious features, perfect for high-end urban living.",
       "agent": {
         "name": "Leonardo DiCaprio",
@@ -529,8 +682,17 @@
       "bathrooms": 3,
       "squareFootage": 4000,
       "status": "For Sale",
-      "amenities": ["Horse Stable", "Large Barn", "Fruit Orchard", "Private Lake"],
-      "images": ["ranch1_img1.jpg", "ranch1_img2.jpg", "ranch1_img3.jpg"],
+      "amenities": [
+        "Horse Stable",
+        "Large Barn",
+        "Fruit Orchard",
+        "Private Lake"
+      ],
+      "images": [
+        "https://img.freepik.com/free-photo/3d-house-model-with-modern-architecture_23-2151004030.jpg?t=st=1723567861~exp=1723571461~hmac=51cfe907b20ca933344e255a65e789c887fa70706a40e71a5a7ad8bf287b3e1c&w=826",
+        "https://img.freepik.com/free-photo/beautiful-shot-modern-house-kitchen_181624-2943.jpg?t=st=1723567348~exp=1723570948~hmac=2eb5d4965e178d6677a91ffaf3d6629eac8d74177c8283e1e5833781b887f5b8&w=740",
+        "https://img.freepik.com/free-photo/small-bathroom-with-modern-style-ai-generated_23-2150695030.jpg?t=st=1723567964~exp=1723571564~hmac=45cae16dfe5fa6ac9a54989eb3b0613aa234cdf206e698a80e6d41eb124d7763&w=740"
+      ],
       "description": "A spacious suburban ranch with extensive land and equestrian facilities, ideal for country living enthusiasts.",
       "agent": {
         "name": "Tom Hanks",
@@ -549,8 +711,17 @@
       "bathrooms": 4,
       "squareFootage": 3000,
       "status": "For Sale",
-      "amenities": ["Ocean Views", "Infinity Pool", "Outdoor Lounge", "Private Beach"],
-      "images": ["retreat1_img1.jpg", "retreat1_img2.jpg", "retreat1_img3.jpg"],
+      "amenities": [
+        "Ocean Views",
+        "Infinity Pool",
+        "Outdoor Lounge",
+        "Private Beach"
+      ],
+      "images": [
+        "https://img.freepik.com/free-photo/charming-yellow-house-with-wooden-windows-green-grassy-garden_181624-8074.jpg?t=st=1723568103~exp=1723571703~hmac=7a9de379db42fb8a8a29d5e28cb1e53e5f60e6d7a0b3a97b34fbfa6f0534b08a&w=740",
+        "https://img.freepik.com/free-psd/bathtub-with-curtain-cupboard-shower_176382-1751.jpg?t=st=1723567809~exp=1723571409~hmac=731671d0ca3d64f6d202a0bd458dd4d84e25dbc9eae2bebdcac2ad8fec3f0677&w=740",
+        "https://img.freepik.com/free-photo/bathroom-interior-design-with-shower_23-2148848690.jpg?t=st=1723568400~exp=1723572000~hmac=e7fedc51d927efbb2c6bce9efb96f50d0898b30c8735566e957f46dc42c0bffd&w=740"
+      ],
       "description": "A luxurious coastal retreat with breathtaking ocean views and high-end amenities for a tranquil escape.",
       "agent": {
         "name": "Natalie Portman",
@@ -569,8 +740,17 @@
       "bathrooms": 3,
       "squareFootage": 2500,
       "status": "For Rent",
-      "amenities": ["Private Garden", "Modern Kitchen", "Two Car Garage", "Security System"],
-      "images": ["duplex1_img1.jpg", "duplex1_img2.jpg", "duplex1_img3.jpg"],
+      "amenities": [
+        "Private Garden",
+        "Modern Kitchen",
+        "Two Car Garage",
+        "Security System"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://img.freepik.com/free-photo/small-bathroom-with-modern-style-ai-generated_23-2150695032.jpg?t=st=1723568593~exp=1723572193~hmac=6054c60c069f37ff3fbad2cda9e50d229b62d20ff4c18400e577a8486b6cd66e&w=740",
+        "https://img.freepik.com/free-photo/small-bathroom-with-modern-design-style_23-2150700330.jpg?t=st=1723568627~exp=1723572227~hmac=25fd57b1563c8524405d690ea99b9cfdbae9d1c10083074dad4f084f69c88c25&w=740"
+      ],
       "description": "A modern duplex with sleek design, private garden, and excellent amenities for a comfortable urban lifestyle.",
       "agent": {
         "name": "Brad Pitt",
@@ -589,8 +769,17 @@
       "bathrooms": 6,
       "squareFootage": 6000,
       "status": "For Sale",
-      "amenities": ["Historical Architecture", "Grand Entrance Hall", "Swimming Pool", "Private Garden"],
-      "images": ["mansion1_img1.jpg", "mansion1_img2.jpg", "mansion1_img3.jpg"],
+      "amenities": [
+        "Historical Architecture",
+        "Grand Entrance Hall",
+        "Swimming Pool",
+        "Private Garden"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://img.freepik.com/free-photo/small-bathroom-with-modern-style-ai-generated_23-2150694920.jpg?t=st=1723568927~exp=1723572527~hmac=a172ae234adcf78708ea38b3f0a4bf44c8c030114315997f48f740c98608bdba&w=740",
+        "https://img.freepik.com/free-photo/small-bathroom-with-modern-design_23-2150700316.jpg?t=st=1723569058~exp=1723572658~hmac=b618f2fd317aa90495a6e07f91293d862223f3d79e85c21bd394640fa4e20c72&w=740"
+      ],
       "description": "An exquisite historical mansion with grand architecture and luxurious amenities, perfect for a prestigious residence.",
       "agent": {
         "name": "Jennifer Lawrence",
@@ -610,7 +799,12 @@
       "squareFootage": 1800,
       "status": "For Sale",
       "amenities": ["Country Views", "Fireplace", "Private Garden"],
-      "images": ["cottage2_img1.jpg", "cottage2_img2.jpg", "cottage2_img3.jpg"],
+      "images": [
+        "https://media.istockphoto.com/id/1165384568/photo/europe-modern-complex-of-residential-buildings.jpg?s=2048x2048&w=is&k=20&c=akMilTSxEYajbopSGMQTatLQR2XXgt6-2ncfToyQ0eI=",
+        "https://images.pexels.com/photos/271753/pexels-photo-271753.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/2398375/pexels-photo-2398375.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=400"
+      ],
       "description": "A quaint cottage with beautiful country views and a cozy fireplace, perfect for a relaxing retreat.",
       "agent": {
         "name": "Brad Pitt",
@@ -629,8 +823,18 @@
       "bathrooms": 4,
       "squareFootage": 3500,
       "status": "For Sale",
-      "amenities": ["Rooftop Terrace", "Jacuzzi", "City Views", "Home Automation"],
-      "images": ["penthouse1_img1.jpg", "penthouse1_img2.jpg", "penthouse1_img3.jpg"],
+      "amenities": [
+        "Rooftop Terrace",
+        "Jacuzzi",
+        "City Views",
+        "Home Automation"
+      ],
+      "images": [
+        "https://media.istockphoto.com/id/1393538022/photo/modern-townhouse-design.jpg?s=612x612&w=0&k=20&c=JA6u4z_Mj2ZWHKPJqnATqpUPlrGBzavUXRhNE-5RYTw=",
+        "https://images.pexels.com/photos/68389/pexels-photo-68389.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/3016430/pexels-photo-3016430.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/1034584/pexels-photo-1034584.jpeg?auto=compress&cs=tinysrgb&w=400"
+      ],
       "description": "An opulent penthouse with stunning city views, a private rooftop terrace, and luxurious amenities.",
       "agent": {
         "name": "Natalie Portman",
@@ -650,7 +854,12 @@
       "squareFootage": 2700,
       "status": "For Sale",
       "amenities": ["Garden", "Garage", "Family Room", "Security"],
-      "images": ["house2_img1.jpg", "house2_img2.jpg", "house2_img3.jpg"],
+      "images": [
+        "https://media.istockphoto.com/id/496704973/photo/luxury-apartments-in-london.jpg?s=612x612&w=0&k=20&c=xMGZm83xbVNzthna2UGKXaPnpATsAMFgMq4XllVe0po=",
+        "https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/2001944/pexels-photo-2001944.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://media.istockphoto.com/id/1333102002/photo/modern-style-bedroom-interior.jpg?b=1&s=612x612&w=0&k=20&c=L9ZRt8pjyrQqoa7pbmPogWDr-Qy3zlyTqLvR4eUIpX8="
+      ],
       "description": "A spacious suburban house with a large garden and family room, ideal for family living.",
       "agent": {
         "name": "Matt Damon",
@@ -670,7 +879,12 @@
       "squareFootage": 800,
       "status": "For Rent",
       "amenities": ["Gym", "Pool Access", "Modern Kitchen", "24/7 Security"],
-      "images": ["studio1_img1.jpg", "studio1_img2.jpg", "studio1_img3.jpg"],
+      "images": [
+        "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/2227832/pexels-photo-2227832.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/342800/pexels-photo-342800.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=400"
+      ],
       "description": "A modern studio with access to gym facilities and a swimming pool, perfect for urban living.",
       "agent": {
         "name": "Reese Witherspoon",
@@ -689,8 +903,18 @@
       "bathrooms": 2,
       "squareFootage": 2100,
       "status": "For Rent",
-      "amenities": ["High Ceilings", "Rooftop Access", "Fitness Center", "Modern Appliances"],
-      "images": ["loft2_img1.jpg", "loft2_img2.jpg", "loft2_img3.jpg"],
+      "amenities": [
+        "High Ceilings",
+        "Rooftop Access",
+        "Fitness Center",
+        "Modern Appliances"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/208732/pexels-photo-208732.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/259580/pexels-photo-259580.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/2988865/pexels-photo-2988865.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/1743231/pexels-photo-1743231.jpeg?auto=compress&cs=tinysrgb&w=400"
+      ],
       "description": "A contemporary loft with modern appliances and high ceilings, offering a stylish urban lifestyle.",
       "agent": {
         "name": "Chris Hemsworth",
@@ -709,8 +933,18 @@
       "bathrooms": 3,
       "squareFootage": 2800,
       "status": "For Sale",
-      "amenities": ["Open Floor Plan", "Private Balcony", "High-End Appliances", "Fitness Center"],
-      "images": ["loft2_img1.jpg", "loft2_img2.jpg", "loft2_img3.jpg"],
+      "amenities": [
+        "Open Floor Plan",
+        "Private Balcony",
+        "High-End Appliances",
+        "Fitness Center"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/208747/pexels-photo-208747.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/358592/pexels-photo-358592.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/1879061/pexels-photo-1879061.jpeg?auto=compress&cs=tinysrgb&w=400"
+      ],
       "description": "A high-end luxury loft with an open floor plan, perfect for modern city living with access to exclusive amenities.",
       "agent": {
         "name": "Chris Hemsworth",
@@ -730,7 +964,12 @@
       "squareFootage": 3000,
       "status": "For Sale",
       "amenities": ["Large Farm", "Barn", "Fruit Trees", "Organic Garden"],
-      "images": ["farmhouse1_img1.jpg", "farmhouse1_img2.jpg", "farmhouse1_img3.jpg"],
+      "images": [
+        "https://images.pexels.com/photos/323775/pexels-photo-323775.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "fhttps://images.pexels.com/photos/1599790/pexels-photo-1599790.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/1571450/pexels-photo-1571450.jpeg?auto=compress&cs=tinysrgb&w=400"
+      ],
       "description": "A charming farmhouse with a large farm and organic garden, ideal for those seeking a countryside lifestyle.",
       "agent": {
         "name": "Emma Watson",
@@ -750,7 +989,12 @@
       "squareFootage": 1800,
       "status": "For Sale",
       "amenities": ["Beachfront Access", "Outdoor Deck", "Sea Views"],
-      "images": ["cottage2_img1.jpg", "cottage2_img2.jpg", "cottage2_img3.jpg"],
+      "images": [
+        "https://images.pexels.com/photos/1022936/pexels-photo-1022936.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/3634742/pexels-photo-3634742.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/1374125/pexels-photo-1374125.jpeg?auto=compress&cs=tinysrgb&w=400"
+      ],
       "description": "A picturesque seaside cottage with beachfront access and stunning sea views, perfect for a relaxing getaway.",
       "agent": {
         "name": "Ryan Reynolds",
@@ -768,9 +1012,14 @@
       "bedrooms": 5,
       "bathrooms": 5,
       "squareFootage": 4000,
-      "status": "For Sale",
+      "status": "For Rent",
       "amenities": ["Private Pool", "Rooftop Terrace", "Smart Home Features"],
-      "images": ["penthouse2_img1.jpg", "penthouse2_img2.jpg", "penthouse2_img3.jpg"],
+      "images": [
+        "https://img.freepik.com/free-photo/3d-rendering-house-model_23-2150799783.jpg?t=st=1723573270~exp=1723576870~hmac=0b8d51c22d32ecd8e826dfe89a4d5371652994fd5609610c340415e2163f4fbe&w=740",
+        "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/6198661/pexels-photo-6198661.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?auto=compress&cs=tinysrgb&w=400"
+      ],
       "description": "An exclusive penthouse with a private pool and smart home features, offering luxury living in the heart of the city.",
       "agent": {
         "name": "Scarlett Johansson",
@@ -789,8 +1038,18 @@
       "bathrooms": 5,
       "squareFootage": 5500,
       "status": "For Sale",
-      "amenities": ["Swimming Pool", "Private Gardens", "Guest House", "Tennis Court"],
-      "images": ["estate2_img1.jpg", "estate2_img2.jpg", "estate2_img3.jpg"],
+      "amenities": [
+        "Swimming Pool",
+        "Private Gardens",
+        "Guest House",
+        "Tennis Court"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1416331108676-a22ccb276e35?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGVzdGF0ZXxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/6301176/pexels-photo-6301176.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/90317/pexels-photo-90317.jpeg?auto=compress&cs=tinysrgb&w=400"
+      ],
       "description": "An elegant estate with extensive grounds and luxurious amenities, ideal for sophisticated living.",
       "agent": {
         "name": "Hugh Jackman",
@@ -810,7 +1069,12 @@
       "squareFootage": 1500,
       "status": "For Rent",
       "amenities": ["Modern Kitchen", "Gym", "24/7 Security"],
-      "images": ["apartment3_img1.jpg", "apartment3_img2.jpg", "apartment3_img3.jpg"],
+      "images": [
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHJlYWxlc3RhdGV8ZW58MHx8MHx8fDA%3D",
+        "https://images.pexels.com/photos/1571459/pexels-photo-1571459.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/5088875/pexels-photo-5088875.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?auto=compress&cs=tinysrgb&w=400"
+      ],
       "description": "A chic city apartment with modern amenities and security, perfect for urban living.",
       "agent": {
         "name": "Natalie Portman",
@@ -830,7 +1094,12 @@
       "squareFootage": 3500,
       "status": "For Sale",
       "amenities": ["Infinity Pool", "Private Garden", "Home Theater"],
-      "images": ["villa3_img1.jpg", "villa3_img2.jpg", "villa3_img3.jpg"],
+      "images": [
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1005058/pexels-photo-1005058.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/2029663/pexels-photo-2029663.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ],
       "description": "An elegant villa with an infinity pool and home theater, offering luxury and comfort.",
       "agent": {
         "name": "Chris Pratt",
@@ -850,7 +1119,11 @@
       "squareFootage": 2800,
       "status": "For Sale",
       "amenities": ["Smart Home Features", "Home Office", "Garden"],
-      "images": ["house2_img1.jpg", "house2_img2.jpg", "house2_img3.jpg"],
+      "images": [
+        "https://images.unsplash.com/photo-1524431144429-03fdd30eee26?q=80&w=1388&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/276551/pexels-photo-276551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A modern house with smart home features and a garden, ideal for a contemporary lifestyle.",
       "agent": {
         "name": "Jessica Alba",
@@ -870,7 +1143,11 @@
       "squareFootage": 800,
       "status": "For Rent",
       "amenities": ["Furnished", "High-Speed Internet", "Parking"],
-      "images": ["studio1_img1.jpg", "studio1_img2.jpg", "studio1_img3.jpg"],
+      "images": [
+        "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/1046639/pexels-photo-1046639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A cozy furnished studio with high-speed internet, perfect for singles or young professionals.",
       "agent": {
         "name": "Daniel Radcliffe",
@@ -890,7 +1167,11 @@
       "squareFootage": 2200,
       "status": "For Sale",
       "amenities": ["Private Courtyard", "Garage", "Community Pool"],
-      "images": ["townhouse1_img1.jpg", "townhouse1_img2.jpg", "townhouse1_img3.jpg"],
+      "images": [
+        "https://images.unsplash.com/photo-1628624747186-a941c476b7ef?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/2507011/pexels-photo-2507011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/373548/pexels-photo-373548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A spacious townhouse with a private courtyard and access to a community pool, ideal for families.",
       "agent": {
         "name": "Harrison Ford",
@@ -910,7 +1191,11 @@
       "squareFootage": 6000,
       "status": "For Sale",
       "amenities": ["Indoor Pool", "Library", "Tennis Court"],
-      "images": ["mansion1_img1.jpg", "mansion1_img2.jpg", "mansion1_img3.jpg"],
+      "images": [
+        "https://images.unsplash.com/photo-1605146768851-eda79da39897?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/1090092/pexels-photo-1090092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/2398375/pexels-photo-2398375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A luxurious mansion with an indoor pool and library, offering opulent living in a serene location.",
       "agent": {
         "name": "Emma Stone",
@@ -930,7 +1215,11 @@
       "squareFootage": 2200,
       "status": "For Sale",
       "amenities": ["Rooftop Garden", "Modern Kitchen", "Fitness Center"],
-      "images": ["duplex1_img1.jpg", "duplex1_img2.jpg", "duplex1_img3.jpg"],
+      "images": [
+        "https://images.unsplash.com/photo-1628133287836-40bd5453bed1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/3935350/pexels-photo-3935350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/6527069/pexels-photo-6527069.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ],
       "description": "An urban duplex with a rooftop garden and modern kitchen, perfect for city dwellers.",
       "agent": {
         "name": "Ryan Gosling",
@@ -950,7 +1239,11 @@
       "squareFootage": 2700,
       "status": "For Sale",
       "amenities": ["Private Beach Access", "Outdoor Lounge", "Barbecue Area"],
-      "images": ["beachhouse1_img1.jpg", "beachhouse1_img2.jpg", "beachhouse1_img3.jpg"],
+      "images": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8",
+        "https://images.pexels.com/photos/1080719/pexels-photo-1080719.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1743226/pexels-photo-1743226.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A beautiful beach house with private beach access and outdoor lounge, perfect for coastal living.",
       "agent": {
         "name": "Gwyneth Paltrow",
@@ -970,7 +1263,11 @@
       "squareFootage": 1000,
       "status": "For Rent",
       "amenities": ["Modern Design", "Gym Access", "Security"],
-      "images": ["studio2_img1.jpg", "studio2_img2.jpg", "studio2_img3.jpg"],
+      "images": [
+        "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/269262/pexels-photo-269262.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A contemporary studio with modern design and gym access, ideal for modern urban living.",
       "agent": {
         "name": "Tom Hardy",
@@ -990,7 +1287,12 @@
       "squareFootage": 4500,
       "status": "For Sale",
       "amenities": ["Private Pool", "Expansive Grounds", "Guest Quarters"],
-      "images": ["countryhome1_img1.jpg", "countryhome1_img2.jpg", "countryhome1_img3.jpg"],
+      "images": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/3316918/pexels-photo-3316918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/3935316/pexels-photo-3935316.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/106936/pexels-photo-106936.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
       "description": "A grand country home with expansive grounds and guest quarters, perfect for a luxurious rural lifestyle.",
       "agent": {
         "name": "Jennifer Lawrence",
@@ -999,22 +1301,38 @@
         "profilePicture": "agent50.jpg"
       }
     }
+  ],
+  "wishlist": [
+    {
+      "id": 40,
+      "title": "Elegant Estate",
+      "location": "Kisumu, Kenya",
+      "price": 70000000,
+      "propertyType": "Estate",
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "squareFootage": 5500,
+      "status": "For Sale",
+      "amenities": [
+        "Swimming Pool",
+        "Private Gardens",
+        "Guest House",
+        "Tennis Court"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1416331108676-a22ccb276e35?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGVzdGF0ZXxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/6301176/pexels-photo-6301176.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/90317/pexels-photo-90317.jpeg?auto=compress&cs=tinysrgb&w=400"
+      ],
+      "description": "An elegant estate with extensive grounds and luxurious amenities, ideal for sophisticated living.",
+      "agent": {
+        "name": "Hugh Jackman",
+        "email": "hugh.jackman@realestate.com",
+        "phone": "+254723987654",
+        "profilePicture": "agent40.jpg"
+      },
+      "review": ["my dream home in 2027","I am getting it earlier"]
+    }
   ]
 }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  

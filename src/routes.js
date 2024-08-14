@@ -3,11 +3,13 @@ import Home from "./pages/Home";
 import Property from "./pages/Property";
 import About from "./pages/About";
 import PropertyDetail from "./components/PropertyDetail";
+import ErrorPage from "./components/ErrorPage";
 
 const routes = [
     {
         path: '/',
         element: <App />,
+        errorElement: <ErrorPage />,
         children: [
             {
                 path: '/',
