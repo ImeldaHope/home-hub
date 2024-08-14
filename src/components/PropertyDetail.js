@@ -30,31 +30,13 @@ const PropertyDetails = ({ property, closeDetails }) => {
           <div className="amenities">
             <h4>Amenities:</h4>
             <ul>
-              <li>Parking</li>
-              <li>Dishwasher</li>
-              <li>Lift</li>
-              <li>Fireplace</li>
-              <li>Clubhouse</li>
-              <li>Playground</li>
-              <li>Garages</li>
+             {property.amenities}
             </ul>
           </div>
 
           <div className="property-description">
             <h4>Property Description:</h4>
             <p>{property.description}</p>
-          </div>
-
-          <div className="whats-nearby">
-            <h4>What's Nearby:</h4>
-            <ul>
-              <li>Schools and Colleges: 0.9 km</li>
-              <li>Hospital: 3.6 km</li>
-              <li>Bus Station: 1.9 km</li>
-              <li>Post Offices: 2.8 km</li>
-              <li>Libraries: 3.6 km</li>
-              <li>Banks: 0.9 km</li>
-            </ul>
           </div>
 
           <div className="find-your-property">
@@ -93,6 +75,7 @@ const PropertyDetails = ({ property, closeDetails }) => {
             <p>Agent Name: {property.agentName}</p>
             <p>Phone: {property.agentPhone}</p>
             <p>Email: {property.agentEmail}</p>
+            <p>Profile picture:{property.profilePicture}</p>
           </div>
 
           <button onClick={closeDetails}>Close</button>
