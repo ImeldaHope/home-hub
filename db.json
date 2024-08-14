@@ -1,7 +1,7 @@
 {
   "homehub": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Modern Family Home",
       "location": "Nairobi, Kenya",
       "price": 45000000,
@@ -10,7 +10,12 @@
       "bathrooms": 3,
       "squareFootage": 2500,
       "status": "For Sale",
-      "amenities": ["Garden", "Garage", "Swimming Pool", "Home Office"],
+      "amenities": [
+        "Garden",
+        "Garage",
+        "Swimming Pool",
+        "Home Office"
+      ],
       "images": [
         "https://img.freepik.com/free-photo/modern-architecture-reflects-illuminated-swimming-pool-dusk-generated-by-artificial-intelligence_188544-150826.jpg?t=st=1723573054~exp=1723576654~hmac=662480af2378c22d60964ec420ea0b5316672372889b4784be0eb45f95ea4d31&w=1060",
         "https://unsplash.com/photos/brown-leather-sofa-and-two-pink-sofa-chair-6CJg-fOTYs4",
@@ -25,7 +30,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Luxury Apartment",
       "location": "Westlands, Nairobi",
       "price": 30000000,
@@ -34,7 +39,12 @@
       "bathrooms": 2,
       "squareFootage": 1800,
       "status": "For Rent",
-      "amenities": ["24/7 Security", "Gym", "Swimming Pool", "Parking"],
+      "amenities": [
+        "24/7 Security",
+        "Gym",
+        "Swimming Pool",
+        "Parking"
+      ],
       "images": [
         "https://images.pexels.com/photos/323775/pexels-photo-323775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -49,7 +59,7 @@
       }
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Cozy Cottage",
       "location": "Karen, Nairobi",
       "price": 25000000,
@@ -58,7 +68,11 @@
       "bathrooms": 2,
       "squareFootage": 1500,
       "status": "For Sale",
-      "amenities": ["Fireplace", "Private Garden", "Gated Community"],
+      "amenities": [
+        "Fireplace",
+        "Private Garden",
+        "Gated Community"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.pexels.com/photos/3797991/pexels-photo-3797991.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -73,7 +87,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Beachfront Villa",
       "location": "Diani, Kenya",
       "price": 80000000,
@@ -102,7 +116,7 @@
       }
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Urban Loft",
       "location": "Kilimani, Nairobi",
       "price": 35000000,
@@ -111,7 +125,11 @@
       "bathrooms": 2,
       "squareFootage": 2000,
       "status": "For Rent",
-      "amenities": ["Rooftop Terrace", "High Ceilings", "Fitness Center"],
+      "amenities": [
+        "Rooftop Terrace",
+        "High Ceilings",
+        "Fitness Center"
+      ],
       "images": [
         "https://plus.unsplash.com/premium_photo-1661915661139-5b6a4e4a6fcc?q=80&w=1567&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.pexels.com/photos/1457841/pexels-photo-1457841.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -126,7 +144,7 @@
       }
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Country Estate",
       "location": "Naivasha, Kenya",
       "price": 60000000,
@@ -135,7 +153,12 @@
       "bathrooms": 5,
       "squareFootage": 5000,
       "status": "For Sale",
-      "amenities": ["Horse Stables", "Tennis Court", "Private Lake", "Helipad"],
+      "amenities": [
+        "Horse Stables",
+        "Tennis Court",
+        "Private Lake",
+        "Helipad"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1492889971304-ac16ab4a4a5a?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -150,7 +173,7 @@
       }
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Penthouse Suite",
       "location": "Lavington, Nairobi",
       "price": 70000000,
@@ -179,7 +202,7 @@
       }
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Mountain Retreat",
       "location": "Nanyuki, Kenya",
       "price": 50000000,
@@ -188,7 +211,12 @@
       "bathrooms": 4,
       "squareFootage": 3500,
       "status": "For Sale",
-      "amenities": ["Hiking Trails", "Fireplace", "Spa", "Scenic Views"],
+      "amenities": [
+        "Hiking Trails",
+        "Fireplace",
+        "Spa",
+        "Scenic Views"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1485996463739-9cb09adbe6c5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.pexels.com/photos/275484/pexels-photo-275484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -203,7 +231,7 @@
       }
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Eco-Friendly Villa",
       "location": "Nairobi, Kenya",
       "price": 48000000,
@@ -231,7 +259,7 @@
       }
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "City Studio",
       "location": "Upper Hill, Nairobi",
       "price": 20000000,
@@ -240,7 +268,11 @@
       "bathrooms": 1,
       "squareFootage": 800,
       "status": "For Rent",
-      "amenities": ["Central Location", "Modern Kitchen", "Balcony"],
+      "amenities": [
+        "Central Location",
+        "Modern Kitchen",
+        "Balcony"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1576941089067-2de3c901e126?q=80&w=1578&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.pexels.com/photos/2089696/pexels-photo-2089696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -255,7 +287,7 @@
       }
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Lakefront Mansion",
       "location": "Kisumu, Kenya",
       "price": 100000000,
@@ -284,7 +316,7 @@
       }
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Modern Duplex",
       "location": "Mombasa, Kenya",
       "price": 38000000,
@@ -293,7 +325,11 @@
       "bathrooms": 3,
       "squareFootage": 3200,
       "status": "For Rent",
-      "amenities": ["Gated Community", "Shared Pool", "Private Balcony"],
+      "amenities": [
+        "Gated Community",
+        "Shared Pool",
+        "Private Balcony"
+      ],
       "images": [
         "https://media.istockphoto.com/id/876864896/photo/luxurious-new-construction-home-in-bellevue-wa.jpg?s=612x612&w=is&k=20&c=qQGnkIlITdtcC_P5_A_HwhUh7pGvOwPe9vnMLlaItjA=",
         "https://media.istockphoto.com/id/1293762741/photo/modern-living-room-interior-3d-render.jpg?s=1024x1024&w=is&k=20&c=KJNOdrG3iN0AKdcQfg65atySC1HLFgbikY2DEAkJDPE=",
@@ -308,7 +344,7 @@
       }
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "Historic Villa",
       "location": "Lamu, Kenya",
       "price": 72000000,
@@ -336,7 +372,7 @@
       }
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Modern Bungalow",
       "location": "Kisii, Kenya",
       "price": 25000000,
@@ -345,7 +381,11 @@
       "bathrooms": 2,
       "squareFootage": 2000,
       "status": "For Sale",
-      "amenities": ["Gated Community", "Modern Finishes", "Garden"],
+      "amenities": [
+        "Gated Community",
+        "Modern Finishes",
+        "Garden"
+      ],
       "images": [
         "https://media.istockphoto.com/id/1282518866/photo/3d-rendering-of-modern-house-in-luxurious-style.jpg?s=1024x1024&w=is&k=20&c=-Ez6yfoFb_iDreaZyA7ORi0CCEfajrb-scLZSd41eP4=",
         "https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -360,7 +400,7 @@
       }
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Suburban Family Home",
       "location": "Thika, Kenya",
       "price": 40000000,
@@ -369,7 +409,12 @@
       "bathrooms": 4,
       "squareFootage": 3500,
       "status": "For Sale",
-      "amenities": ["Garage", "Garden", "Home Office", "Playground"],
+      "amenities": [
+        "Garage",
+        "Garden",
+        "Home Office",
+        "Playground"
+      ],
       "images": [
         "https://media.istockphoto.com/id/1286710375/photo/3d-rendering-of-modern-house-in-luxurious-style.jpg?s=1024x1024&w=is&k=20&c=frU98ruZhfnmF7ncx8y40jcWl96VIsL2FLgkMTLVQE4=",
         "https://images.pexels.com/photos/2507016/pexels-photo-2507016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -384,7 +429,7 @@
       }
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "Contemporary Condo",
       "location": "Nyali, Mombasa",
       "price": 28000000,
@@ -393,7 +438,12 @@
       "bathrooms": 2,
       "squareFootage": 1800,
       "status": "For Rent",
-      "amenities": ["Gym", "Shared Pool", "Parking", "24/7 Security"],
+      "amenities": [
+        "Gym",
+        "Shared Pool",
+        "Parking",
+        "24/7 Security"
+      ],
       "images": [
         "https://media.istockphoto.com/id/938272734/photo/3d-rendering-of-modern-cozy-house-by-the-river.jpg?s=1024x1024&w=is&k=20&c=tlu7oEA125fnzwdGkw3mBKA_HA4v5LbtXIgRq2B8vO8=",
         "https://images.pexels.com/photos/2134224/pexels-photo-2134224.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -408,7 +458,7 @@
       }
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "Luxe Penthouse",
       "location": "Westlands, Nairobi",
       "price": 90000000,
@@ -437,7 +487,7 @@
       }
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "Luxury Mansion",
       "location": "Karen, Nairobi",
       "price": 100000000,
@@ -446,7 +496,12 @@
       "bathrooms": 7,
       "squareFootage": 6000,
       "status": "For Sale",
-      "amenities": ["Swimming Pool", "Gym", "Home Office", "Large Garden"],
+      "amenities": [
+        "Swimming Pool",
+        "Gym",
+        "Home Office",
+        "Large Garden"
+      ],
       "images": [
         "https://i.pinimg.com/564x/e8/b5/6e/e8b56e96eca2098eeab08748fa7a8699.jpg",
         "https://images.pexels.com/photos/1599791/pexels-photo-1599791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -461,7 +516,7 @@
       }
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "Beachside Bungalow",
       "location": "Diani, Kenya",
       "price": 35000000,
@@ -470,7 +525,11 @@
       "bathrooms": 2,
       "squareFootage": 2000,
       "status": "For Sale",
-      "amenities": ["Private Beach Access", "Swimming Pool", "Outdoor Kitchen"],
+      "amenities": [
+        "Private Beach Access",
+        "Swimming Pool",
+        "Outdoor Kitchen"
+      ],
       "images": [
         "https://i.pinimg.com/564x/d1/66/bc/d166bca6e8231faf850c220e94a29d14.jpg",
         "https://i.pinimg.com/564x/e2/de/cb/e2decb5819211d0e420727710409c0f9.jpg",
@@ -485,7 +544,7 @@
       }
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "Executive Apartment",
       "location": "Kilimani, Nairobi",
       "price": 32000000,
@@ -494,7 +553,11 @@
       "bathrooms": 3,
       "squareFootage": 1800,
       "status": "For Rent",
-      "amenities": ["Gym", "Rooftop Terrace", "Parking"],
+      "amenities": [
+        "Gym",
+        "Rooftop Terrace",
+        "Parking"
+      ],
       "images": [
         "https://i.pinimg.com/564x/ab/5c/2c/ab5c2ce9fc68960f631a6cc8d3a6b196.jpg",
         "https://images.pexels.com/photos/94865/pexels-photo-94865.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -509,7 +572,7 @@
       }
     },
     {
-      "id": 21,
+      "id": "21",
       "title": "Country Home",
       "location": "Nakuru, Kenya",
       "price": 55000000,
@@ -518,7 +581,11 @@
       "bathrooms": 4,
       "squareFootage": 4000,
       "status": "For Sale",
-      "amenities": ["Large Garden", "Garage", "Guest House"],
+      "amenities": [
+        "Large Garden",
+        "Garage",
+        "Guest House"
+      ],
       "images": [
         "https://img.freepik.com/free-photo/movie-night-by-pool-whole-family_1268-31098.jpg?t=st=1723562691~exp=1723566291~hmac=ab054be9f1303c840f6df408749bbf1cadebb74935b8a0466b7327c294d1fc29&w=826",
         "https://img.freepik.com/free-photo/empty-modern-room-with-furniture_23-2149178336.jpg?t=st=1723564163~exp=1723567763~hmac=ebdc3cb78c1be09d1f1931beeb2c03df4180aa3aa6a262822b055f048c3957ca&w=740",
@@ -533,7 +600,7 @@
       }
     },
     {
-      "id": 22,
+      "id": "22",
       "title": "Rustic Farmhouse",
       "location": "Nanyuki, Kenya",
       "price": 30000000,
@@ -542,7 +609,12 @@
       "bathrooms": 3,
       "squareFootage": 3500,
       "status": "For Sale",
-      "amenities": ["Expansive Land", "Barn", "Fireplace", "Fruit Orchard"],
+      "amenities": [
+        "Expansive Land",
+        "Barn",
+        "Fireplace",
+        "Fruit Orchard"
+      ],
       "images": [
         "https://img.freepik.com/free-photo/3d-house-model-with-modern-architecture_23-2151004062.jpg?t=st=1723564300~exp=1723567900~hmac=10698f4a7c6325ded8e60cace8347ba40a818fb3d082b57fbcaf93e3792f22ba&w=826",
         "https://img.freepik.com/free-photo/3d-rendering-white-wood-living-room-near-bedroom-upstair_105762-2197.jpg?t=st=1723564333~exp=1723567933~hmac=364c052c0c21873e2c1c1f7c7f2aeb8e75ea1f7439f4581ff8979ba95d18299c&w=740",
@@ -557,7 +629,7 @@
       }
     },
     {
-      "id": 23,
+      "id": "23",
       "title": "Urban Loft",
       "location": "Upper Hill, Nairobi",
       "price": 45000000,
@@ -586,7 +658,7 @@
       }
     },
     {
-      "id": 24,
+      "id": "24",
       "title": "Luxury Townhouse",
       "location": "Gigiri, Nairobi",
       "price": 75000000,
@@ -615,7 +687,7 @@
       }
     },
     {
-      "id": 25,
+      "id": "25",
       "title": "Seaside Villa",
       "location": "Malindi, Kenya",
       "price": 85000000,
@@ -644,7 +716,7 @@
       }
     },
     {
-      "id": 26,
+      "id": "26",
       "title": "Contemporary Penthouse",
       "location": "Nairobi Central Business District",
       "price": 120000000,
@@ -673,7 +745,7 @@
       }
     },
     {
-      "id": 27,
+      "id": "27",
       "title": "Suburban Ranch",
       "location": "Kericho, Kenya",
       "price": 42000000,
@@ -702,7 +774,7 @@
       }
     },
     {
-      "id": 28,
+      "id": "28",
       "title": "Coastal Retreat",
       "location": "Lamu, Kenya",
       "price": 60000000,
@@ -731,7 +803,7 @@
       }
     },
     {
-      "id": 29,
+      "id": "29",
       "title": "Modern Duplex",
       "location": "Lang'ata, Nairobi",
       "price": 32000000,
@@ -760,7 +832,7 @@
       }
     },
     {
-      "id": 30,
+      "id": "30",
       "title": "Historical Mansion",
       "location": "Mombasa, Kenya",
       "price": 90000000,
@@ -789,7 +861,7 @@
       }
     },
     {
-      "id": 31,
+      "id": "31",
       "title": "Charming Cottage",
       "location": "Limuru, Kenya",
       "price": 28000000,
@@ -798,7 +870,11 @@
       "bathrooms": 2,
       "squareFootage": 1800,
       "status": "For Sale",
-      "amenities": ["Country Views", "Fireplace", "Private Garden"],
+      "amenities": [
+        "Country Views",
+        "Fireplace",
+        "Private Garden"
+      ],
       "images": [
         "https://media.istockphoto.com/id/1165384568/photo/europe-modern-complex-of-residential-buildings.jpg?s=2048x2048&w=is&k=20&c=akMilTSxEYajbopSGMQTatLQR2XXgt6-2ncfToyQ0eI=",
         "https://images.pexels.com/photos/271753/pexels-photo-271753.jpeg?auto=compress&cs=tinysrgb&w=400",
@@ -814,7 +890,7 @@
       }
     },
     {
-      "id": 32,
+      "id": "32",
       "title": "Modern Penthouse",
       "location": "Nairobi CBD",
       "price": 100000000,
@@ -844,7 +920,7 @@
       }
     },
     {
-      "id": 33,
+      "id": "33",
       "title": "Suburban House",
       "location": "Lang'ata, Nairobi",
       "price": 42000000,
@@ -853,7 +929,12 @@
       "bathrooms": 3,
       "squareFootage": 2700,
       "status": "For Sale",
-      "amenities": ["Garden", "Garage", "Family Room", "Security"],
+      "amenities": [
+        "Garden",
+        "Garage",
+        "Family Room",
+        "Security"
+      ],
       "images": [
         "https://media.istockphoto.com/id/496704973/photo/luxury-apartments-in-london.jpg?s=612x612&w=0&k=20&c=xMGZm83xbVNzthna2UGKXaPnpATsAMFgMq4XllVe0po=",
         "https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=400",
@@ -869,7 +950,7 @@
       }
     },
     {
-      "id": 34,
+      "id": "34",
       "title": "Luxury Studio",
       "location": "Kilimani, Nairobi",
       "price": 25000000,
@@ -878,7 +959,12 @@
       "bathrooms": 1,
       "squareFootage": 800,
       "status": "For Rent",
-      "amenities": ["Gym", "Pool Access", "Modern Kitchen", "24/7 Security"],
+      "amenities": [
+        "Gym",
+        "Pool Access",
+        "Modern Kitchen",
+        "24/7 Security"
+      ],
       "images": [
         "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=600",
         "https://images.pexels.com/photos/2227832/pexels-photo-2227832.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -894,7 +980,7 @@
       }
     },
     {
-      "id": 35,
+      "id": "35",
       "title": "Contemporary Loft",
       "location": "Westlands, Nairobi",
       "price": 37000000,
@@ -924,7 +1010,7 @@
       }
     },
     {
-      "id": 36,
+      "id": "36",
       "title": "Luxury Loft",
       "location": "Upper Hill, Nairobi",
       "price": 55000000,
@@ -954,7 +1040,7 @@
       }
     },
     {
-      "id": 37,
+      "id": "37",
       "title": "Charming Farmhouse",
       "location": "Eldoret, Kenya",
       "price": 38000000,
@@ -963,7 +1049,12 @@
       "bathrooms": 3,
       "squareFootage": 3000,
       "status": "For Sale",
-      "amenities": ["Large Farm", "Barn", "Fruit Trees", "Organic Garden"],
+      "amenities": [
+        "Large Farm",
+        "Barn",
+        "Fruit Trees",
+        "Organic Garden"
+      ],
       "images": [
         "https://images.pexels.com/photos/323775/pexels-photo-323775.jpeg?auto=compress&cs=tinysrgb&w=600",
         "https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -979,7 +1070,7 @@
       }
     },
     {
-      "id": 38,
+      "id": "38",
       "title": "Seaside Cottage",
       "location": "Malindi, Kenya",
       "price": 45000000,
@@ -988,7 +1079,11 @@
       "bathrooms": 2,
       "squareFootage": 1800,
       "status": "For Sale",
-      "amenities": ["Beachfront Access", "Outdoor Deck", "Sea Views"],
+      "amenities": [
+        "Beachfront Access",
+        "Outdoor Deck",
+        "Sea Views"
+      ],
       "images": [
         "https://images.pexels.com/photos/1022936/pexels-photo-1022936.jpeg?auto=compress&cs=tinysrgb&w=400",
         "https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -1004,7 +1099,7 @@
       }
     },
     {
-      "id": 39,
+      "id": "39",
       "title": "City Center Penthouse",
       "location": "Nairobi CBD",
       "price": 150000000,
@@ -1013,7 +1108,11 @@
       "bathrooms": 5,
       "squareFootage": 4000,
       "status": "For Rent",
-      "amenities": ["Private Pool", "Rooftop Terrace", "Smart Home Features"],
+      "amenities": [
+        "Private Pool",
+        "Rooftop Terrace",
+        "Smart Home Features"
+      ],
       "images": [
         "https://img.freepik.com/free-photo/3d-rendering-house-model_23-2150799783.jpg?t=st=1723573270~exp=1723576870~hmac=0b8d51c22d32ecd8e826dfe89a4d5371652994fd5609610c340415e2163f4fbe&w=740",
         "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -1029,7 +1128,7 @@
       }
     },
     {
-      "id": 40,
+      "id": "40",
       "title": "Elegant Estate",
       "location": "Kisumu, Kenya",
       "price": 70000000,
@@ -1059,7 +1158,7 @@
       }
     },
     {
-      "id": 41,
+      "id": "41",
       "title": "Chic City Apartment",
       "location": "Nairobi CBD",
       "price": 32000000,
@@ -1068,7 +1167,11 @@
       "bathrooms": 2,
       "squareFootage": 1500,
       "status": "For Rent",
-      "amenities": ["Modern Kitchen", "Gym", "24/7 Security"],
+      "amenities": [
+        "Modern Kitchen",
+        "Gym",
+        "24/7 Security"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHJlYWxlc3RhdGV8ZW58MHx8MHx8fDA%3D",
         "https://images.pexels.com/photos/1571459/pexels-photo-1571459.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -1084,7 +1187,7 @@
       }
     },
     {
-      "id": 42,
+      "id": "42",
       "title": "Elegant Villa",
       "location": "Westlands, Nairobi",
       "price": 70000000,
@@ -1093,7 +1196,11 @@
       "bathrooms": 4,
       "squareFootage": 3500,
       "status": "For Sale",
-      "amenities": ["Infinity Pool", "Private Garden", "Home Theater"],
+      "amenities": [
+        "Infinity Pool",
+        "Private Garden",
+        "Home Theater"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -1109,7 +1216,7 @@
       }
     },
     {
-      "id": 43,
+      "id": "43",
       "title": "Modern House",
       "location": "Karen, Nairobi",
       "price": 55000000,
@@ -1118,7 +1225,11 @@
       "bathrooms": 3,
       "squareFootage": 2800,
       "status": "For Sale",
-      "amenities": ["Smart Home Features", "Home Office", "Garden"],
+      "amenities": [
+        "Smart Home Features",
+        "Home Office",
+        "Garden"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1524431144429-03fdd30eee26?q=80&w=1388&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.pexels.com/photos/276551/pexels-photo-276551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -1133,7 +1244,7 @@
       }
     },
     {
-      "id": 44,
+      "id": "44",
       "title": "Cozy Studio",
       "location": "Kilimani, Nairobi",
       "price": 22000000,
@@ -1142,7 +1253,11 @@
       "bathrooms": 1,
       "squareFootage": 800,
       "status": "For Rent",
-      "amenities": ["Furnished", "High-Speed Internet", "Parking"],
+      "amenities": [
+        "Furnished",
+        "High-Speed Internet",
+        "Parking"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.pexels.com/photos/1046639/pexels-photo-1046639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -1157,7 +1272,7 @@
       }
     },
     {
-      "id": 45,
+      "id": "45",
       "title": "Spacious Townhouse",
       "location": "Nairobi, Kenya",
       "price": 40000000,
@@ -1166,7 +1281,11 @@
       "bathrooms": 2,
       "squareFootage": 2200,
       "status": "For Sale",
-      "amenities": ["Private Courtyard", "Garage", "Community Pool"],
+      "amenities": [
+        "Private Courtyard",
+        "Garage",
+        "Community Pool"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1628624747186-a941c476b7ef?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.pexels.com/photos/2507011/pexels-photo-2507011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -1181,7 +1300,7 @@
       }
     },
     {
-      "id": 46,
+      "id": "46",
       "title": "Luxurious Mansion",
       "location": "Nakuru, Kenya",
       "price": 90000000,
@@ -1190,7 +1309,11 @@
       "bathrooms": 6,
       "squareFootage": 6000,
       "status": "For Sale",
-      "amenities": ["Indoor Pool", "Library", "Tennis Court"],
+      "amenities": [
+        "Indoor Pool",
+        "Library",
+        "Tennis Court"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1605146768851-eda79da39897?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.pexels.com/photos/1090092/pexels-photo-1090092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -1205,7 +1328,7 @@
       }
     },
     {
-      "id": 47,
+      "id": "47",
       "title": "Urban Duplex",
       "location": "Parklands, Nairobi",
       "price": 35000000,
@@ -1214,7 +1337,11 @@
       "bathrooms": 3,
       "squareFootage": 2200,
       "status": "For Sale",
-      "amenities": ["Rooftop Garden", "Modern Kitchen", "Fitness Center"],
+      "amenities": [
+        "Rooftop Garden",
+        "Modern Kitchen",
+        "Fitness Center"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1628133287836-40bd5453bed1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.pexels.com/photos/3935350/pexels-photo-3935350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -1229,7 +1356,7 @@
       }
     },
     {
-      "id": 48,
+      "id": "48",
       "title": "Beach House",
       "location": "Mombasa, Kenya",
       "price": 50000000,
@@ -1238,7 +1365,11 @@
       "bathrooms": 3,
       "squareFootage": 2700,
       "status": "For Sale",
-      "amenities": ["Private Beach Access", "Outdoor Lounge", "Barbecue Area"],
+      "amenities": [
+        "Private Beach Access",
+        "Outdoor Lounge",
+        "Barbecue Area"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8",
         "https://images.pexels.com/photos/1080719/pexels-photo-1080719.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -1253,7 +1384,7 @@
       }
     },
     {
-      "id": 49,
+      "id": "49",
       "title": "Contemporary Studio",
       "location": "Nairobi, Kenya",
       "price": 25000000,
@@ -1262,7 +1393,11 @@
       "bathrooms": 1,
       "squareFootage": 1000,
       "status": "For Rent",
-      "amenities": ["Modern Design", "Gym Access", "Security"],
+      "amenities": [
+        "Modern Design",
+        "Gym Access",
+        "Security"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.pexels.com/photos/269262/pexels-photo-269262.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -1277,7 +1412,7 @@
       }
     },
     {
-      "id": 50,
+      "id": "50",
       "title": "Grand Country Home",
       "location": "Kericho, Kenya",
       "price": 65000000,
@@ -1286,7 +1421,11 @@
       "bathrooms": 4,
       "squareFootage": 4500,
       "status": "For Sale",
-      "amenities": ["Private Pool", "Expansive Grounds", "Guest Quarters"],
+      "amenities": [
+        "Private Pool",
+        "Expansive Grounds",
+        "Guest Quarters"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.pexels.com/photos/3316918/pexels-photo-3316918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -1304,7 +1443,7 @@
   ],
   "wishlist": [
     {
-      "id": 40,
+      "id": "40",
       "title": "Elegant Estate",
       "location": "Kisumu, Kenya",
       "price": 70000000,
@@ -1332,7 +1471,10 @@
         "phone": "+254723987654",
         "profilePicture": "agent40.jpg"
       },
-      "review": ["my dream home in 2027","I am getting it earlier"]
+      "review": [
+        "my dream home in 2027",
+        "I am getting it earlier"
+      ]
     }
   ]
 }
