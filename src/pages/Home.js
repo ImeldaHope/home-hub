@@ -20,7 +20,7 @@ function Home() {
       body: JSON.stringify(wishList),
     })
       .then((res) => res.json())
-      .then((data) => console.log("Wishlist updated successfully", data));
+      .then((data) => console.log("Wishlist data", data));
   }, [wishList]);
 
   function handleLike() {
