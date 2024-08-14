@@ -19,11 +19,11 @@ const PropertyDetails = ({ property, closeDetails }) => {
 
           <div className="specifications">
             <h4>Specifications:</h4>
-            <p>Square Footage: {property.squareFootage} sq ft</p>
-            <p>Year Built: {property.yearBuilt}</p>
-            <p>Lot Size: {property.lotSize} acres</p>
             <p>Garage: {property.garage ? 'Yes' : 'No'}</p>
             <p>Swimming Pool: {property.pool ? 'Yes' : 'No'}</p>
+            <p>Gym: {property.gym ? 'Yes' : 'No'}</p>
+            <p>Parking : {property.parking ? 'Yes' : 'No'}</p>
+            <p>Elevator : {property.elevator ? 'Yes' : 'No'}</p>
           </div>
 
           <div className="amenities">
