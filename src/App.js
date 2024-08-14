@@ -16,17 +16,27 @@ function App() {
       .catch(error => console.error('Error fetching properties:', error));
   }, []);
   
-  function handleLike(e) {
-    const likedId = e.currentTarget.querySelector('#')
-    console.log(e)
-    // const propertyInWishList = postWishList.find(
-    //   (property) => property.id === parseInt(properties.id)
-    // );
+  
 
-    // if (!propertyInWishList) {
-    //   setPostWishList((prevWishList) => [properties, ...prevWishList]);
-    // }
+  function handleLike(e) {
+    const likedId = e.currentTarget.getAttribute('like-id')
+    
+    const likedProperty = properties.find((property) => property.id === likedId)    
+    
+
+    const postData = { ...likedProperty, reviews: [] };
+
+    fetch("http://localhost:3001/wishlist", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(postData),
+    })
+      .then((res) => res.json())
+      .then((data) => setPostWishList(data));  
   }
+  
 
   function openWishlist(){
     setIsWishlistOpen(true)

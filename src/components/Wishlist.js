@@ -9,7 +9,7 @@ function Wishlist({isOpen, closeWishlist, handleLike}) {
   fetch("http://localhost:3001/wishlist")
     .then(res => res.json())
     .then(data => setWishlist(data))
-  }, [])
+  }, [wishlist])
 
   return (
     <div className={`wishlist-modal ${isOpen ? 'open' : ''}`}>

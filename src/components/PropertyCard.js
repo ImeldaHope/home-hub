@@ -19,6 +19,7 @@ function PropertyCard({properties, handleLike}) {
         <IoHeartCircleOutline
           className="like_icon icon"
           style={{ color: "#ffffff" }}  
+          like-id={properties.id}
           onClick={(e) => handleLike(e)}        
         />
         <div className="property_card-tags">

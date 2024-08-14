@@ -1,7 +1,7 @@
 {
   "homehub": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Modern Family Home",
       "location": "Nairobi, Kenya",
       "price": 45000000,
@@ -30,7 +30,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Luxury Apartment",
       "location": "Westlands, Nairobi",
       "price": 30000000,
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Cozy Cottage",
       "location": "Karen, Nairobi",
       "price": 25000000,
@@ -87,7 +87,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Beachfront Villa",
       "location": "Diani, Kenya",
       "price": 80000000,
@@ -116,7 +116,7 @@
       }
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Urban Loft",
       "location": "Kilimani, Nairobi",
       "price": 35000000,
@@ -144,7 +144,7 @@
       }
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Country Estate",
       "location": "Naivasha, Kenya",
       "price": 60000000,
@@ -173,7 +173,7 @@
       }
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Penthouse Suite",
       "location": "Lavington, Nairobi",
       "price": 70000000,
@@ -202,7 +202,7 @@
       }
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Mountain Retreat",
       "location": "Nanyuki, Kenya",
       "price": 50000000,
@@ -231,7 +231,7 @@
       }
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Eco-Friendly Villa",
       "location": "Nairobi, Kenya",
       "price": 48000000,
@@ -259,7 +259,7 @@
       }
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "City Studio",
       "location": "Upper Hill, Nairobi",
       "price": 20000000,
@@ -287,7 +287,7 @@
       }
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Lakefront Mansion",
       "location": "Kisumu, Kenya",
       "price": 100000000,
@@ -316,7 +316,7 @@
       }
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Modern Duplex",
       "location": "Mombasa, Kenya",
       "price": 38000000,
@@ -344,7 +344,7 @@
       }
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "Historic Villa",
       "location": "Lamu, Kenya",
       "price": 72000000,
@@ -372,7 +372,7 @@
       }
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Modern Bungalow",
       "location": "Kisii, Kenya",
       "price": 25000000,
@@ -400,7 +400,7 @@
       }
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Suburban Family Home",
       "location": "Thika, Kenya",
       "price": 40000000,
@@ -429,7 +429,7 @@
       }
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "Contemporary Condo",
       "location": "Nyali, Mombasa",
       "price": 28000000,
@@ -458,7 +458,7 @@
       }
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "Luxe Penthouse",
       "location": "Westlands, Nairobi",
       "price": 90000000,
@@ -487,7 +487,7 @@
       }
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "Luxury Mansion",
       "location": "Karen, Nairobi",
       "price": 100000000,
@@ -516,7 +516,7 @@
       }
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "Beachside Bungalow",
       "location": "Diani, Kenya",
       "price": 35000000,
@@ -544,7 +544,7 @@
       }
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "Executive Apartment",
       "location": "Kilimani, Nairobi",
       "price": 32000000,
@@ -572,7 +572,7 @@
       }
     },
     {
-      "id": 21,
+      "id": "21",
       "title": "Country Home",
       "location": "Nakuru, Kenya",
       "price": 55000000,
@@ -600,7 +600,7 @@
       }
     },
     {
-      "id": 22,
+      "id": "22",
       "title": "Rustic Farmhouse",
       "location": "Nanyuki, Kenya",
       "price": 30000000,
@@ -629,7 +629,7 @@
       }
     },
     {
-      "id": 23,
+      "id": "23",
       "title": "Urban Loft",
       "location": "Upper Hill, Nairobi",
       "price": 45000000,
@@ -658,7 +658,7 @@
       }
     },
     {
-      "id": 24,
+      "id": "24",
       "title": "Luxury Townhouse",
       "location": "Gigiri, Nairobi",
       "price": 75000000,
@@ -687,7 +687,7 @@
       }
     },
     {
-      "id": 25,
+      "id": "25",
       "title": "Seaside Villa",
       "location": "Malindi, Kenya",
       "price": 85000000,
@@ -716,7 +716,7 @@
       }
     },
     {
-      "id": 26,
+      "id": "26",
       "title": "Contemporary Penthouse",
       "location": "Nairobi Central Business District",
       "price": 120000000,
@@ -745,7 +745,7 @@
       }
     },
     {
-      "id": 27,
+      "id": "27",
       "title": "Suburban Ranch",
       "location": "Kericho, Kenya",
       "price": 42000000,
@@ -774,7 +774,7 @@
       }
     },
     {
-      "id": 28,
+      "id": "28",
       "title": "Coastal Retreat",
       "location": "Lamu, Kenya",
       "price": 60000000,
@@ -803,7 +803,7 @@
       }
     },
     {
-      "id": 29,
+      "id": "29",
       "title": "Modern Duplex",
       "location": "Lang'ata, Nairobi",
       "price": 32000000,
@@ -832,7 +832,7 @@
       }
     },
     {
-      "id": 30,
+      "id": "30",
       "title": "Historical Mansion",
       "location": "Mombasa, Kenya",
       "price": 90000000,
@@ -861,7 +861,7 @@
       }
     },
     {
-      "id": 31,
+      "id": "31",
       "title": "Charming Cottage",
       "location": "Limuru, Kenya",
       "price": 28000000,
@@ -890,7 +890,7 @@
       }
     },
     {
-      "id": 32,
+      "id": "32",
       "title": "Modern Penthouse",
       "location": "Nairobi CBD",
       "price": 100000000,
@@ -920,7 +920,7 @@
       }
     },
     {
-      "id": 33,
+      "id": "33",
       "title": "Suburban House",
       "location": "Lang'ata, Nairobi",
       "price": 42000000,
@@ -950,7 +950,7 @@
       }
     },
     {
-      "id": 34,
+      "id": "34",
       "title": "Luxury Studio",
       "location": "Kilimani, Nairobi",
       "price": 25000000,
@@ -980,7 +980,7 @@
       }
     },
     {
-      "id": 35,
+      "id": "35",
       "title": "Contemporary Loft",
       "location": "Westlands, Nairobi",
       "price": 37000000,
@@ -1010,7 +1010,7 @@
       }
     },
     {
-      "id": 36,
+      "id": "36",
       "title": "Luxury Loft",
       "location": "Upper Hill, Nairobi",
       "price": 55000000,
@@ -1040,7 +1040,7 @@
       }
     },
     {
-      "id": 37,
+      "id": "37",
       "title": "Charming Farmhouse",
       "location": "Eldoret, Kenya",
       "price": 38000000,
@@ -1070,7 +1070,7 @@
       }
     },
     {
-      "id": 38,
+      "id": "38",
       "title": "Seaside Cottage",
       "location": "Malindi, Kenya",
       "price": 45000000,
@@ -1099,7 +1099,7 @@
       }
     },
     {
-      "id": 39,
+      "id": "39",
       "title": "City Center Penthouse",
       "location": "Nairobi CBD",
       "price": 150000000,
@@ -1128,7 +1128,7 @@
       }
     },
     {
-      "id": 40,
+      "id": "40",
       "title": "Elegant Estate",
       "location": "Kisumu, Kenya",
       "price": 70000000,
@@ -1158,7 +1158,7 @@
       }
     },
     {
-      "id": 41,
+      "id": "41",
       "title": "Chic City Apartment",
       "location": "Nairobi CBD",
       "price": 32000000,
@@ -1187,7 +1187,7 @@
       }
     },
     {
-      "id": 42,
+      "id": "42",
       "title": "Elegant Villa",
       "location": "Westlands, Nairobi",
       "price": 70000000,
@@ -1216,7 +1216,7 @@
       }
     },
     {
-      "id": 43,
+      "id": "43",
       "title": "Modern House",
       "location": "Karen, Nairobi",
       "price": 55000000,
@@ -1244,7 +1244,7 @@
       }
     },
     {
-      "id": 44,
+      "id": "44",
       "title": "Cozy Studio",
       "location": "Kilimani, Nairobi",
       "price": 22000000,
@@ -1272,7 +1272,7 @@
       }
     },
     {
-      "id": 45,
+      "id": "45",
       "title": "Spacious Townhouse",
       "location": "Nairobi, Kenya",
       "price": 40000000,
@@ -1300,7 +1300,7 @@
       }
     },
     {
-      "id": 46,
+      "id": "46",
       "title": "Luxurious Mansion",
       "location": "Nakuru, Kenya",
       "price": 90000000,
@@ -1328,7 +1328,7 @@
       }
     },
     {
-      "id": 47,
+      "id": "47",
       "title": "Urban Duplex",
       "location": "Parklands, Nairobi",
       "price": 35000000,
@@ -1356,7 +1356,7 @@
       }
     },
     {
-      "id": 48,
+      "id": "48",
       "title": "Beach House",
       "location": "Mombasa, Kenya",
       "price": 50000000,
@@ -1384,7 +1384,7 @@
       }
     },
     {
-      "id": 49,
+      "id": "49",
       "title": "Contemporary Studio",
       "location": "Nairobi, Kenya",
       "price": 25000000,
@@ -1412,7 +1412,7 @@
       }
     },
     {
-      "id": 50,
+      "id": "50",
       "title": "Grand Country Home",
       "location": "Kericho, Kenya",
       "price": 65000000,
@@ -1443,7 +1443,7 @@
   ],
   "wishlist": [
     {
-      "id": 40,
+      "id": "40",
       "title": "Elegant Estate",
       "location": "Kisumu, Kenya",
       "price": 70000000,
@@ -1477,7 +1477,7 @@
       ]
     },
     {
-      "id": 47,
+      "id": "47",
       "title": "Urban Duplex",
       "location": "Parklands, Nairobi",
       "price": 35000000,
@@ -1509,7 +1509,7 @@
       ]
     },
     {
-      "id": 48,
+      "id": "48",
       "title": "Beach House",
       "location": "Mombasa, Kenya",
       "price": 50000000,
@@ -1541,7 +1541,7 @@
       ]
     },
     {
-      "id": 49,
+      "id": "49",
       "title": "Contemporary Studio",
       "location": "Nairobi, Kenya",
       "price": 25000000,
@@ -1571,6 +1571,182 @@
         "my dream home in 2027",
         "I am getting it earlier"
       ]
+    },
+    {
+      "id": "1",
+      "title": "Modern Family Home",
+      "location": "Nairobi, Kenya",
+      "price": 45000000,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "squareFootage": 2500,
+      "status": "For Sale",
+      "amenities": [
+        "Garden",
+        "Garage",
+        "Swimming Pool",
+        "Home Office"
+      ],
+      "images": [
+        "https://img.freepik.com/free-photo/modern-architecture-reflects-illuminated-swimming-pool-dusk-generated-by-artificial-intelligence_188544-150826.jpg?t=st=1723573054~exp=1723576654~hmac=662480af2378c22d60964ec420ea0b5316672372889b4784be0eb45f95ea4d31&w=1060",
+        "https://unsplash.com/photos/brown-leather-sofa-and-two-pink-sofa-chair-6CJg-fOTYs4",
+        "https://unsplash.com/photos/gray-steel-3-door-refrigerator-near-modular-kitchen-MP0bgaS_d1c"
+      ],
+      "description": "A spacious modern family home with a large garden, perfect for a growing family.",
+      "agent": {
+        "name": "John Doe",
+        "email": "john.doe@realestate.com",
+        "phone": "+254712345678",
+        "profilePicture": "agent1.jpg"
+      },
+      "reviews": []
+    },
+    {
+      "id": "2",
+      "title": "Luxury Apartment",
+      "location": "Westlands, Nairobi",
+      "price": 30000000,
+      "propertyType": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFootage": 1800,
+      "status": "For Rent",
+      "amenities": [
+        "24/7 Security",
+        "Gym",
+        "Swimming Pool",
+        "Parking"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/323775/pexels-photo-323775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1528255671579-01b9e182ed1d?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "description": "A luxurious apartment with stunning city views, modern amenities, and security.",
+      "agent": {
+        "name": "Jane Smith",
+        "email": "jane.smith@realestate.com",
+        "phone": "+254798765432",
+        "profilePicture": "agent2.jpg"
+      },
+      "reviews": []
+    },
+    {
+      "id": "10",
+      "title": "City Studio",
+      "location": "Upper Hill, Nairobi",
+      "price": 20000000,
+      "propertyType": "Studio",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "squareFootage": 800,
+      "status": "For Rent",
+      "amenities": [
+        "Central Location",
+        "Modern Kitchen",
+        "Balcony"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1576941089067-2de3c901e126?q=80&w=1578&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.pexels.com/photos/2089696/pexels-photo-2089696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "description": "A stylish city studio with modern finishes, ideal for a single professional or couple.",
+      "agent": {
+        "name": "Eva Mendes",
+        "email": "eva.mendes@realestate.com",
+        "phone": "+254798765321",
+        "profilePicture": "agent10.jpg"
+      },
+      "reviews": []
+    },
+    {
+      "id": "13",
+      "title": "Historic Villa",
+      "location": "Lamu, Kenya",
+      "price": 72000000,
+      "propertyType": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "squareFootage": 4500,
+      "status": "For Sale",
+      "amenities": [
+        "Cultural Significance",
+        "Traditional Architecture",
+        "Private Courtyard"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/209315/pexels-photo-209315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/90317/pexels-photo-90317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1571461/pexels-photo-1571461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "description": "A historic villa with rich cultural heritage, offering a unique living experience.",
+      "agent": {
+        "name": "Brad Pitt",
+        "email": "brad.pitt@realestate.com",
+        "phone": "+254723456890",
+        "profilePicture": "agent13.jpg"
+      },
+      "reviews": []
+    },
+    {
+      "id": "13",
+      "title": "Historic Villa",
+      "location": "Lamu, Kenya",
+      "price": 72000000,
+      "propertyType": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "squareFootage": 4500,
+      "status": "For Sale",
+      "amenities": [
+        "Cultural Significance",
+        "Traditional Architecture",
+        "Private Courtyard"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/209315/pexels-photo-209315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/90317/pexels-photo-90317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1571461/pexels-photo-1571461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "description": "A historic villa with rich cultural heritage, offering a unique living experience.",
+      "agent": {
+        "name": "Brad Pitt",
+        "email": "brad.pitt@realestate.com",
+        "phone": "+254723456890",
+        "profilePicture": "agent13.jpg"
+      },
+      "reviews": []
+    },
+    {
+      "id": "14",
+      "title": "Modern Bungalow",
+      "location": "Kisii, Kenya",
+      "price": 25000000,
+      "propertyType": "Bungalow",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFootage": 2000,
+      "status": "For Sale",
+      "amenities": [
+        "Gated Community",
+        "Modern Finishes",
+        "Garden"
+      ],
+      "images": [
+        "https://media.istockphoto.com/id/1282518866/photo/3d-rendering-of-modern-house-in-luxurious-style.jpg?s=1024x1024&w=is&k=20&c=-Ez6yfoFb_iDreaZyA7ORi0CCEfajrb-scLZSd41eP4=",
+        "https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1909791/pexels-photo-1909791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "description": "A modern bungalow with contemporary design and comfortable living spaces.",
+      "agent": {
+        "name": "Charlize Theron",
+        "email": "charlize.theron@realestate.com",
+        "phone": "+254731234567",
+        "profilePicture": "agent14.jpg"
+      },
+      "reviews": []
     }
   ]
 }
