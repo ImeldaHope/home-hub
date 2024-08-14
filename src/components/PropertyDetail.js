@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const PropertyDetails = ({ property, closeDetails }) => {
   return (
@@ -6,10 +6,11 @@ const PropertyDetails = ({ property, closeDetails }) => {
       {property ? (
         <div className="property-details">
           <h2>{property.title}</h2>
+
           <div className="property-gallery">
-      
-            
+            {/* Gallery content here */}
           </div>
+
           <p>Location: {property.location}</p>
           <p>Type: {property.propertyType}</p>
           <p>{property.bedrooms} Bedrooms</p>
@@ -22,25 +23,78 @@ const PropertyDetails = ({ property, closeDetails }) => {
             <p>Garage: {property.garage ? 'Yes' : 'No'}</p>
             <p>Swimming Pool: {property.pool ? 'Yes' : 'No'}</p>
             <p>Gym: {property.gym ? 'Yes' : 'No'}</p>
-            <p>Parking : {property.parking ? 'Yes' : 'No'}</p>
-            <p>Elevator : {property.elevator ? 'Yes' : 'No'}</p>
+            <p>Parking: {property.parking ? 'Yes' : 'No'}</p>
+            <p>Elevator: {property.elevator ? 'Yes' : 'No'}</p>
           </div>
 
           <div className="amenities">
             <h4>Amenities:</h4>
             <ul>
-              {property.amenities && property.amenities.map((amenity, index) => (
-                <li key={index}>{amenity}</li>
-              ))}
+              <li>Parking</li>
+              <li>Dishwasher</li>
+              <li>Lift</li>
+              <li>Fireplace</li>
+              <li>Clubhouse</li>
+              <li>Playground</li>
+              <li>Garages</li>
             </ul>
           </div>
-          
+
+          <div className="property-description">
+            <h4>Property Description:</h4>
+            <p>{property.description}</p>
+          </div>
+
+          <div className="whats-nearby">
+            <h4>What's Nearby:</h4>
+            <ul>
+              <li>Schools and Colleges: 0.9 km</li>
+              <li>Hospital: 3.6 km</li>
+              <li>Bus Station: 1.9 km</li>
+              <li>Post Offices: 2.8 km</li>
+              <li>Libraries: 3.6 km</li>
+              <li>Banks: 0.9 km</li>
+            </ul>
+          </div>
+
+          <div className="find-your-property">
+            <h4>Find Your Property:</h4>
+            <form>
+              <label>
+                Date:
+                <input type="date" name="date" required />
+              </label>
+              <label>
+                Time:
+                <input type="time" name="time" required />
+              </label>
+              <label>
+                Your Name:
+                <input type="text" name="name" required />
+              </label>
+              <label>
+                Email:
+                <input type="email" name="email" required />
+              </label>
+              <label>
+                Phone:
+                <input type="tel" name="phone" required />
+              </label>
+              <label>
+                Your Message:
+                <textarea name="message" required></textarea>
+              </label>
+              <button type="submit">Submit Request</button>
+            </form>
+          </div>
+
           <div className="contact-info">
             <h4>Contact:</h4>
             <p>Agent Name: {property.agentName}</p>
             <p>Phone: {property.agentPhone}</p>
             <p>Email: {property.agentEmail}</p>
           </div>
+
           <button onClick={closeDetails}>Close</button>
         </div>
       ) : (
@@ -49,3 +103,5 @@ const PropertyDetails = ({ property, closeDetails }) => {
     </div>
   );
 };
+
+export default PropertyDetails;
