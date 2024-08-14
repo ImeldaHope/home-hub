@@ -28,7 +28,7 @@ const PropertyFilter = ({ filters, handleChange}) => {
               name="minPrice"
               value={filters.minPrice}
               onChange={handleChange}
-              placeholder="Enter minimum price"
+              placeholder="Min Price"
             />
           </label>
         </div>
@@ -40,7 +40,7 @@ const PropertyFilter = ({ filters, handleChange}) => {
               name="maxPrice"
               value={filters.maxPrice}
               onChange={handleChange}
-              placeholder="Enter maximum price"
+              placeholder="Max Price"
             />
           </label>
         </div>
