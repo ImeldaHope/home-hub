@@ -1,39 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import PropertyCard from "../components/PropertyCard";
 import "../styles/wishlist.css";
 
-function Wishlist({ isOpen, closeWishlist, handleLike }) {
-  const [wishlist, setWishlist] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:3001/wishlist")
-      .then((res) => res.json())
-      .then((data) => setWishlist(data));
-  }, [wishlist]);
-
-  function handleDelete(e) {
-    const deletedId = e.currentTarget.getAttribute("delete-id");
-
-    fetch(`http://localhost:3001/wishlist/${deletedId}`, {
-      method: "DELETE",
-      headers: {
-        "Content-Type": "application/json"
-      },
-    });
-
-    const wishlistFiltered = wishlist.filter(
-      (filtered) => filtered.id !== deletedId
-    );
-    setWishlist(wishlistFiltered);
-  }
-
+function Wishlist({ isOpen, closeWishlist, handleLike, wishlist }) {
+  const [review, setReviews] = useState([]);
+  
   function handleUpdate(e) {
     e.preventDefault();
     const form = e.currentTarget; 
     const review = form.querySelector('input[name="review"]').value;
     
     const postedId = e.currentTarget.getAttribute("posted-id");
-    console.log(postedId)
+    
     fetch(`http://localhost:3001/wishlist/${postedId}`, {
       method: "PATCH",
       headers: {
@@ -54,7 +32,7 @@ function Wishlist({ isOpen, closeWishlist, handleLike }) {
       {wishlist.length > 0 ? (
         wishlist.map((wish) => (
           <div key={wish.id} className="wishlist-content">
-            <PropertyCard properties={wish} handleLike={handleLike} />
+            <PropertyCard wishlist={wishlist} inWishlist = {true} properties={wish} handleLike={handleLike} />
             <h3>Reviews</h3>
             <div className="reviews-container">
               {wish.reviews.length > 0 ? (
@@ -66,14 +44,7 @@ function Wishlist({ isOpen, closeWishlist, handleLike }) {
                 <input type="text" name="review" placeholder="post a review" />
                 <input type="submit" />
               </form>
-            </div>
-            <button
-              delete-id={wish.id}
-              onClick={(e) => handleDelete(e)}
-              className="delete-property"
-            >
-              Delete
-            </button>
+            </div>            
           </div>
         ))
       ) : (

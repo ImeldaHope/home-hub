@@ -6,8 +6,40 @@ import { Outlet } from "react-router-dom";
 
 function App() {
   const [properties, setProperties] = useState([]);
-  const [isWishlistOpen, setIsWishlistOpen] = useState(false);  
-  const [postWishList, setPostWishList] = useState([]);
+  const [isWishlistOpen, setIsWishlistOpen] = useState(false);    
+  const [isLiked, setIsLiked] = useState(false);
+  const [wishlist, setWishlist] = useState([]);
+  
+  const [filters, setFilters] = useState({
+    location: '',
+    minPrice: '',
+    maxPrice: '',    
+    bedrooms: '',
+    status: ''
+  });
+
+  
+
+  useEffect(() => {
+    fetch("http://localhost:3001/wishlist")
+      .then((res) => res.json())
+      .then((data) => setWishlist(data.reverse()));
+  }, [wishlist]);
+
+  function handleDelete(deletedId) {    
+
+    fetch(`http://localhost:3001/wishlist/${deletedId}`, {
+      method: "DELETE",
+      headers: {
+        "Content-Type": "application/json"
+      },
+    });
+    console.log('I have been called')
+    const wishlistFiltered = wishlist.filter(
+      (filtered) => filtered.id !== deletedId
+    );
+    setWishlist(wishlistFiltered);
+  }
 
   useEffect(() => {
     fetch('http://localhost:3001/homehub')
@@ -16,12 +48,20 @@ function App() {
       .catch(error => console.error('Error fetching properties:', error));
   }, []);
 
-  function handleLike(e) {
-    const likedId = e.currentTarget.getAttribute('like-id')
+  // function handleLike(id) {
     
-    const likedProperty = properties.find((property) => property.id === likedId)    
-    
+  //   if (isLiked) {
+  //     const liked = wishlist.find(wish => wish.id === id)
+  //     handleDelete(liked.id);
+  //   } else {
+  //     postToWishlist(id);
+  //   }
+  //   setIsLiked(!isLiked);      
+  // }
 
+  function postToWishlist(id){
+       
+    const likedProperty = properties.find((property) => property.id === id) 
     const postData = { ...likedProperty, reviews: [] };
 
     fetch("http://localhost:3001/wishlist", {
@@ -32,9 +72,16 @@ function App() {
       body: JSON.stringify(postData),
     })
       .then((res) => res.json())
-      .then((data) => setPostWishList(data));  
+      .then((data) => setWishlist([data, ...wishlist]));
   }
   
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFilters({
+      ...filters,
+      [name]: value
+    });
+  };
 
   function openWishlist(){
     setIsWishlistOpen(true)
@@ -46,8 +93,8 @@ function App() {
   return (
     <div>                 
       <NavBar openWishlist={openWishlist}/> 
-      <Wishlist isOpen={isWishlistOpen} closeWishlist={closeWishlist} handleLike={handleLike}/> 
-      <Outlet context={{properties, handleLike}}/> 
+      <Wishlist wishlist={wishlist} isOpen={isWishlistOpen} closeWishlist={closeWishlist} /> 
+      <Outlet context={{properties, handleChange, filters, handleDelete, postToWishlist, wishlist, isLiked, setIsLiked}}/> 
       <Footer />
     </div>
   );

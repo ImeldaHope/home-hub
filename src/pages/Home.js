@@ -7,17 +7,8 @@ import "../styles/home.css"
 import { useOutletContext } from 'react-router-dom'
 
 function Home(){
-  const {properties, handleLike} = useOutletContext();
+  const {properties, handleLike, handleChange, filters, handleDelete, postToWishlist, isLiked, setIsLiked} = useOutletContext();
   const [type, setType] = useState("");
-  
-  
-  const [filters, setFilters] = useState({
-    location: '',
-    minPrice: '',
-    maxPrice: '',    
-    bedrooms: '',
-    status: ''
-  });
 
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -38,14 +29,6 @@ function Home(){
     return acc;
   }, {});
   const propertyTypeCount = Object.entries(propertyType);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFilters({
-      ...filters,
-      [name]: value
-    });
-  };
 
   const filteredProperties = properties.filter(property => {
     return (
@@ -78,9 +61,9 @@ function Home(){
         <div className='type-div'>{propertyTypeCount.map(([key, value]) => <PropertyTypeCard key={key} type={key} count={value} handleClick={handleTypeClick}/>)}</div>
       </div>
       <div className='filtered-map'>
-        {paginatedProperties.map((property) => (
-          <PropertyCard key={property.id} properties={property} handleLike={handleLike}/>
-        ))}
+        {paginatedProperties.length > 0 ? paginatedProperties.map((property) => (
+          <PropertyCard  inWishlist = {false} key={property.id} properties={property} handleLike={handleLike} handleDelete={handleDelete} postToWishlist={postToWishlist} isLiked={isLiked} setIsLiked={setIsLiked}/>
+        )) : <p>No properties found</p>}
       </div>
       <div className='pagination-controls'>
         <button 

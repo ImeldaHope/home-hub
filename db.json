@@ -8,6 +8,7 @@
       "propertyType": "House",
       "bedrooms": 4,
       "bathrooms": 3,
+      "isLiked": false,
       "squareFootage": 2500,
       "status": "For Sale",
       "amenities": [
@@ -37,6 +38,7 @@
       "propertyType": "Apartment",
       "bedrooms": 3,
       "bathrooms": 2,
+      "isLiked": false,
       "squareFootage": 1800,
       "status": "For Rent",
       "amenities": [
@@ -66,6 +68,7 @@
       "propertyType": "Cottage",
       "bedrooms": 2,
       "bathrooms": 2,
+      "isLiked": false,
       "squareFootage": 1500,
       "status": "For Sale",
       "amenities": [
@@ -94,6 +97,7 @@
       "propertyType": "Villa",
       "bedrooms": 5,
       "bathrooms": 4,
+      "isLiked": false,
       "squareFootage": 4000,
       "status": "For Sale",
       "amenities": [
@@ -123,6 +127,7 @@
       "propertyType": "Loft",
       "bedrooms": 3,
       "bathrooms": 2,
+      "isLiked": false,
       "squareFootage": 2000,
       "status": "For Rent",
       "amenities": [
@@ -151,6 +156,7 @@
       "propertyType": "Estate",
       "bedrooms": 6,
       "bathrooms": 5,
+      "isLiked": false,
       "squareFootage": 5000,
       "status": "For Sale",
       "amenities": [
@@ -180,6 +186,7 @@
       "propertyType": "Penthouse",
       "bedrooms": 4,
       "bathrooms": 4,
+      "isLiked": false,
       "squareFootage": 3000,
       "status": "For Sale",
       "amenities": [
@@ -209,6 +216,7 @@
       "propertyType": "Retreat",
       "bedrooms": 5,
       "bathrooms": 4,
+      "isLiked": false,
       "squareFootage": 3500,
       "status": "For Sale",
       "amenities": [
@@ -238,6 +246,7 @@
       "propertyType": "Villa",
       "bedrooms": 4,
       "bathrooms": 3,
+      "isLiked": false,
       "squareFootage": 2800,
       "status": "For Sale",
       "amenities": [
@@ -266,6 +275,7 @@
       "propertyType": "Studio",
       "bedrooms": 1,
       "bathrooms": 1,
+      "isLiked": false,
       "squareFootage": 800,
       "status": "For Rent",
       "amenities": [
@@ -294,6 +304,7 @@
       "propertyType": "Mansion",
       "bedrooms": 7,
       "bathrooms": 6,
+      "isLiked": false,
       "squareFootage": 6000,
       "status": "For Sale",
       "amenities": [
@@ -323,6 +334,7 @@
       "propertyType": "Duplex",
       "bedrooms": 4,
       "bathrooms": 3,
+      "isLiked": false,
       "squareFootage": 3200,
       "status": "For Rent",
       "amenities": [
@@ -351,6 +363,7 @@
       "propertyType": "Villa",
       "bedrooms": 5,
       "bathrooms": 4,
+      "isLiked": false,
       "squareFootage": 4500,
       "status": "For Sale",
       "amenities": [
@@ -379,6 +392,7 @@
       "propertyType": "Bungalow",
       "bedrooms": 3,
       "bathrooms": 2,
+      "isLiked": false,
       "squareFootage": 2000,
       "status": "For Sale",
       "amenities": [
@@ -407,6 +421,7 @@
       "propertyType": "House",
       "bedrooms": 5,
       "bathrooms": 4,
+      "isLiked": false,
       "squareFootage": 3500,
       "status": "For Sale",
       "amenities": [
@@ -436,6 +451,7 @@
       "propertyType": "Condo",
       "bedrooms": 3,
       "bathrooms": 2,
+      "isLiked": false,
       "squareFootage": 1800,
       "status": "For Rent",
       "amenities": [
@@ -465,6 +481,7 @@
       "propertyType": "Penthouse",
       "bedrooms": 4,
       "bathrooms": 5,
+      "isLiked": false,
       "squareFootage": 4000,
       "status": "For Sale",
       "amenities": [
@@ -494,6 +511,7 @@
       "propertyType": "Mansion",
       "bedrooms": 6,
       "bathrooms": 7,
+      "isLiked": false,
       "squareFootage": 6000,
       "status": "For Sale",
       "amenities": [
@@ -523,6 +541,7 @@
       "propertyType": "Bungalow",
       "bedrooms": 3,
       "bathrooms": 2,
+      "isLiked": false,
       "squareFootage": 2000,
       "status": "For Sale",
       "amenities": [
@@ -551,6 +570,7 @@
       "propertyType": "Apartment",
       "bedrooms": 3,
       "bathrooms": 3,
+      "isLiked": false,
       "squareFootage": 1800,
       "status": "For Rent",
       "amenities": [
@@ -579,6 +599,7 @@
       "propertyType": "House",
       "bedrooms": 5,
       "bathrooms": 4,
+      "isLiked": false,
       "squareFootage": 4000,
       "status": "For Sale",
       "amenities": [
@@ -607,6 +628,7 @@
       "propertyType": "Farmhouse",
       "bedrooms": 4,
       "bathrooms": 3,
+      "isLiked": false,
       "squareFootage": 3500,
       "status": "For Sale",
       "amenities": [
@@ -636,6 +658,7 @@
       "propertyType": "Loft",
       "bedrooms": 2,
       "bathrooms": 2,
+      "isLiked": false,
       "squareFootage": 2000,
       "status": "For Rent",
       "amenities": [
@@ -665,6 +688,7 @@
       "propertyType": "Townhouse",
       "bedrooms": 5,
       "bathrooms": 4,
+      "isLiked": false,
       "squareFootage": 4000,
       "status": "For Sale",
       "amenities": [
@@ -694,6 +718,7 @@
       "propertyType": "Villa",
       "bedrooms": 5,
       "bathrooms": 5,
+      "isLiked": false,
       "squareFootage": 5000,
       "status": "For Sale",
       "amenities": [
@@ -723,6 +748,7 @@
       "propertyType": "Penthouse",
       "bedrooms": 4,
       "bathrooms": 4,
+      "isLiked": false,
       "squareFootage": 3500,
       "status": "For Sale",
       "amenities": [
@@ -752,6 +778,7 @@
       "propertyType": "Ranch",
       "bedrooms": 5,
       "bathrooms": 3,
+      "isLiked": false,
       "squareFootage": 4000,
       "status": "For Sale",
       "amenities": [
@@ -781,6 +808,7 @@
       "propertyType": "Villa",
       "bedrooms": 4,
       "bathrooms": 4,
+      "isLiked": false,
       "squareFootage": 3000,
       "status": "For Sale",
       "amenities": [
@@ -810,6 +838,7 @@
       "propertyType": "Duplex",
       "bedrooms": 3,
       "bathrooms": 3,
+      "isLiked": false,
       "squareFootage": 2500,
       "status": "For Rent",
       "amenities": [
@@ -839,6 +868,7 @@
       "propertyType": "Mansion",
       "bedrooms": 7,
       "bathrooms": 6,
+      "isLiked": false,
       "squareFootage": 6000,
       "status": "For Sale",
       "amenities": [
@@ -868,6 +898,7 @@
       "propertyType": "Cottage",
       "bedrooms": 3,
       "bathrooms": 2,
+      "isLiked": false,
       "squareFootage": 1800,
       "status": "For Sale",
       "amenities": [
@@ -897,6 +928,7 @@
       "propertyType": "Penthouse",
       "bedrooms": 4,
       "bathrooms": 4,
+      "isLiked": false,
       "squareFootage": 3500,
       "status": "For Sale",
       "amenities": [
@@ -927,6 +959,7 @@
       "propertyType": "House",
       "bedrooms": 4,
       "bathrooms": 3,
+      "isLiked": false,
       "squareFootage": 2700,
       "status": "For Sale",
       "amenities": [
@@ -957,6 +990,7 @@
       "propertyType": "Studio",
       "bedrooms": 1,
       "bathrooms": 1,
+      "isLiked": false,
       "squareFootage": 800,
       "status": "For Rent",
       "amenities": [
@@ -987,6 +1021,7 @@
       "propertyType": "Loft",
       "bedrooms": 2,
       "bathrooms": 2,
+      "isLiked": false,
       "squareFootage": 2100,
       "status": "For Rent",
       "amenities": [
@@ -1017,6 +1052,7 @@
       "propertyType": "Loft",
       "bedrooms": 3,
       "bathrooms": 3,
+      "isLiked": false,
       "squareFootage": 2800,
       "status": "For Sale",
       "amenities": [
@@ -1047,6 +1083,7 @@
       "propertyType": "Farmhouse",
       "bedrooms": 4,
       "bathrooms": 3,
+      "isLiked": false,
       "squareFootage": 3000,
       "status": "For Sale",
       "amenities": [
@@ -1077,6 +1114,7 @@
       "propertyType": "Cottage",
       "bedrooms": 2,
       "bathrooms": 2,
+      "isLiked": false,
       "squareFootage": 1800,
       "status": "For Sale",
       "amenities": [
@@ -1106,6 +1144,7 @@
       "propertyType": "Penthouse",
       "bedrooms": 5,
       "bathrooms": 5,
+      "isLiked": false,
       "squareFootage": 4000,
       "status": "For Rent",
       "amenities": [
@@ -1135,6 +1174,7 @@
       "propertyType": "Estate",
       "bedrooms": 6,
       "bathrooms": 5,
+      "isLiked": false,
       "squareFootage": 5500,
       "status": "For Sale",
       "amenities": [
@@ -1165,6 +1205,7 @@
       "propertyType": "Apartment",
       "bedrooms": 2,
       "bathrooms": 2,
+      "isLiked": false,
       "squareFootage": 1500,
       "status": "For Rent",
       "amenities": [
@@ -1194,6 +1235,7 @@
       "propertyType": "Villa",
       "bedrooms": 4,
       "bathrooms": 4,
+      "isLiked": false,
       "squareFootage": 3500,
       "status": "For Sale",
       "amenities": [
@@ -1223,6 +1265,7 @@
       "propertyType": "House",
       "bedrooms": 4,
       "bathrooms": 3,
+      "isLiked": false,
       "squareFootage": 2800,
       "status": "For Sale",
       "amenities": [
@@ -1251,6 +1294,7 @@
       "propertyType": "Studio",
       "bedrooms": 1,
       "bathrooms": 1,
+      "isLiked": false,
       "squareFootage": 800,
       "status": "For Rent",
       "amenities": [
@@ -1279,6 +1323,7 @@
       "propertyType": "Townhouse",
       "bedrooms": 3,
       "bathrooms": 2,
+      "isLiked": false,
       "squareFootage": 2200,
       "status": "For Sale",
       "amenities": [
@@ -1307,6 +1352,7 @@
       "propertyType": "Mansion",
       "bedrooms": 7,
       "bathrooms": 6,
+      "isLiked": false,
       "squareFootage": 6000,
       "status": "For Sale",
       "amenities": [
@@ -1335,6 +1381,7 @@
       "propertyType": "Duplex",
       "bedrooms": 3,
       "bathrooms": 3,
+      "isLiked": false,
       "squareFootage": 2200,
       "status": "For Sale",
       "amenities": [
@@ -1363,6 +1410,7 @@
       "propertyType": "Beach House",
       "bedrooms": 4,
       "bathrooms": 3,
+      "isLiked": false,
       "squareFootage": 2700,
       "status": "For Sale",
       "amenities": [
@@ -1391,6 +1439,7 @@
       "propertyType": "Studio",
       "bedrooms": 1,
       "bathrooms": 1,
+      "isLiked": false,
       "squareFootage": 1000,
       "status": "For Rent",
       "amenities": [
@@ -1419,6 +1468,7 @@
       "propertyType": "Country Home",
       "bedrooms": 5,
       "bathrooms": 4,
+      "isLiked": false,
       "squareFootage": 4500,
       "status": "For Sale",
       "amenities": [
@@ -1441,39 +1491,5 @@
       }
     }
   ],
-  "wishlist": [
-    {
-      "id": "1",
-      "title": "Modern Family Home",
-      "location": "Nairobi, Kenya",
-      "price": 45000000,
-      "propertyType": "House",
-      "bedrooms": 4,
-      "bathrooms": 3,
-      "squareFootage": 2500,
-      "status": "For Sale",
-      "amenities": [
-        "Garden",
-        "Garage",
-        "Swimming Pool",
-        "Home Office"
-      ],
-      "images": [
-        "https://img.freepik.com/free-photo/modern-architecture-reflects-illuminated-swimming-pool-dusk-generated-by-artificial-intelligence_188544-150826.jpg?t=st=1723573054~exp=1723576654~hmac=662480af2378c22d60964ec420ea0b5316672372889b4784be0eb45f95ea4d31&w=1060",
-        "https://unsplash.com/photos/brown-leather-sofa-and-two-pink-sofa-chair-6CJg-fOTYs4",
-        "https://unsplash.com/photos/gray-steel-3-door-refrigerator-near-modular-kitchen-MP0bgaS_d1c"
-      ],
-      "description": "A spacious modern family home with a large garden, perfect for a growing family.",
-      "agent": {
-        "name": "John Doe",
-        "email": "john.doe@realestate.com",
-        "phone": "+254712345678",
-        "profilePicture": "agent1.jpg"
-      },
-      "reviews": [
-        "dream home init",
-        "ingine"
-      ]
-    }
-  ]
+  "wishlist": []
 }

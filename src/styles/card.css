@@ -95,10 +95,22 @@
 
 .like_icon {
   position: absolute;
+  cursor: pointer;
   right: 2rem;
   top: 2rem;
   height: 3rem;
   width: 3rem;
+  transition: transform 0.3s ease;
+}
+
+.like_icon .isLiked{
+  fill: red;
+  stroke: red;
+}
+.like_icon:hover{
+  transform: scale(1.2);
+  fill: #1085ff;
+  stroke: #1085ff;
 }
 
 .property_card-tags {

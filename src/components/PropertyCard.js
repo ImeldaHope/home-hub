@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {Link} from "react-router-dom";
 import { IoHeartCircleOutline } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
@@ -7,7 +7,17 @@ import { PiBathtub } from "react-icons/pi";
 import { TbRulerMeasure } from "react-icons/tb";
 import "../styles/card.css";
 
-function PropertyCard({properties, handleLike}) {
+function PropertyCard({properties, postToWishlist, handleDelete, inWishlist, isLiked, setIsLiked}) {
+   
+  function handleLike(id) {
+    
+    if (isLiked) {       
+      handleDelete(id);
+    } else {
+      postToWishlist(id);
+    }
+    setIsLiked(!isLiked);      
+  }
 
   return (
     <div className="property_card" id={properties.id}>
@@ -18,12 +28,11 @@ function PropertyCard({properties, handleLike}) {
           alt={properties.title}
           height={300}
         />
-        <IoHeartCircleOutline
-          className="like_icon icon"
-          style={{ color: "#ffffff" }}  
-          like-id={properties.id}
-          onClick={(e) => handleLike(e)}        
-        />
+        {!inWishlist && <IoHeartCircleOutline
+          className={`like_icon icon ${isLiked ? 'isLiked' : ''}`}
+          style={{ color: "#ffffff" }}            
+          onClick={() => handleLike(properties.id)}        
+        />}
         <div className="property_card-tags">
           <small>{properties.status}</small>
           <small>{properties.propertyType}</small>

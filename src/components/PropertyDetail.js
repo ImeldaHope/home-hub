@@ -1,19 +1,24 @@
 import React from 'react'
-import { useOutletContext, useParams } from 'react-router-dom';
+import { useOutletContext, useParams, useNavigate } from 'react-router-dom';
 import '../styles/property-details.css';
 
 function PropertyDetail() {
   const params = useParams();
   const {properties} = useOutletContext();
- 
+  const navigate = useNavigate();
+
   const property = properties.find(prop => prop.id === params.id);
   
   return (
     <div >
+      
       {property ? (
         <div className="property-details">
-          <h2>{property.title}</h2>
-
+          <button onClick={() => navigate(-1)} className='back-btn'>&larr; Back</button> 
+          <div className='property-title'>
+            <h2>{property.title}</h2>
+            <p>Status: {property.status}</p>
+          </div>
           <div className="property-gallery">
             
             {/* Gallery content here */}
@@ -22,7 +27,7 @@ function PropertyDetail() {
           <p>Location: {property.location}</p>
           <p>Type: {property.propertyType}</p>
           <p>{property.bedrooms} Bedrooms</p>
-          <p>Status: {property.status}</p>
+          
           <p>Description: {property.description}</p>
           <p>Price: KSH {property.price.toLocaleString()}</p>
 
@@ -84,9 +89,7 @@ function PropertyDetail() {
             <p>Phone: {property.agentPhone}</p>
             <p>Email: {property.agentEmail}</p>
             <p>Profile picture:{property.profilePicture}</p>
-          </div>
-
-          <button>Close</button>
+          </div>          
         </div>
       ) : (
         <p>No property details available.</p>

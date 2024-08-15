@@ -6,15 +6,16 @@ import { useOutletContext } from 'react-router-dom';
 import "../styles/properties.css"
 
 function Property() {
-  const {properties, handleLike, isPropertyDetailOpen} = useOutletContext() 
+  const {properties, handleLike, filters, handleChange, postToWishlist, handleDelete, isLiked, setIsLiked} = useOutletContext() 
   const [search, setSearch] = useState("");
-  console.log('in property',isPropertyDetailOpen)
+  
   function handleSearchChange(event) {
     event.preventDefault();
     setSearch(event.target.value);
   }
 
-  const filteredProperties = properties.filter((property) => {
+  const filteredProperties = properties
+  .filter((property) => {
     const toLowerCaseSearch = search.toLowerCase();
     return (
       property.title.toLowerCase().includes(toLowerCaseSearch) ||
@@ -22,7 +23,19 @@ function Property() {
       property.propertyType.toLowerCase().includes(toLowerCaseSearch) ||
       property.description.toLowerCase().includes(toLowerCaseSearch)
     );
+  })
+  .filter((property) => {
+    return (
+      (filters.location ? property.location.toLowerCase().includes(filters.location.toLowerCase()) : true) &&
+      (filters.minPrice ? property.price >= Number(filters.minPrice) : true) &&
+      (filters.maxPrice ? property.price <= Number(filters.maxPrice) : true) &&
+      (filters.bedrooms ? property.bedrooms >= Number(filters.bedrooms) : true) &&
+      (filters.status ? property.status === filters.status : true)
+    );
   });
+
+
+  
 
   return (
     <div className='properties-container'>
@@ -32,14 +45,13 @@ function Property() {
         <SearchBar search={search} handleSearchChange={handleSearchChange}/>
       </div>      
       <div>
-        {/* <PropertyFilter filters={filters} handleChange={handleChange}/> */}
+        <PropertyFilter filters={filters} handleChange={handleChange}/>
       </div>
       <div className="property-list">        
         {filteredProperties.map((property) => (
-          <PropertyCard key={property.id} properties={property} handleLike={handleLike}/>
+          <PropertyCard inWishlist = {false} key={property.id} properties={property} handleLike={handleLike} handleDelete={handleDelete} postToWishlist={postToWishlist} isLiked={isLiked} setIsLiked={setIsLiked}/>
         ))}        
-      </div>
-      
+      </div>      
     </div>
   )
 }
