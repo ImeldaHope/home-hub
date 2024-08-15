@@ -18,12 +18,11 @@ const routes = [
             {
                 path: '/properties',
                 element: <Property />,
-                children: [
-                    {
-                        path: '/properties/property-details/:id',
-                        element: <PropertyDetail />
-                    }
-                ]
+                
+            },
+            {
+                path: '/properties-detail/:id',
+                element: <PropertyDetail />
             },  
             {
                 path: '/about',

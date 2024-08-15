@@ -1,76 +1,82 @@
-
 .property-details {
-    background-color: #fff;
-    padding: 1.5rem;
-    margin: 1rem 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .property-details h2 {
-    margin-bottom: 1rem;
-    font-size: 1.75rem;
-  }
-  
-  .property-gallery {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .specifications, .amenities,  .property-description,  .find-your-property, .contact-info {
-    margin-top: 1rem;
-  }
-  
-  .specifications h4, .amenities h4,  .property-description h4, .find-your-property h4, .contact-info h4 {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-  }
+  background-color: #fff;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
 
-  
-  .find-your-property form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .find-your-property label {
-    margin-bottom: 0.75rem;
-  }
-  
-  .find-your-property input,
-  .find-your-property textarea {
-    width: 100%;
-    padding: 0.5rem;
-    margin-top: 0.25rem;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-  }
-  
-  .find-your-property button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    border-radius: 4px;
-    margin-top: 1rem;
-  }
-  
-  .find-your-property button:hover {
-    background-color: #0056b3;
-  }
-  
-  button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    border-radius: 4px;
-    margin-top: 1rem;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
+.property-details h2 {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+}
+
+.property-gallery {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.specifications,
+.amenities,
+.property-description,
+.find-your-property,
+.contact-info {
+  margin-top: 1rem;
+}
+
+.specifications h4,
+.amenities h4,
+.property-description h4,
+.find-your-property h4,
+.contact-info h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.find-your-property form {
+  display: flex;
+  flex-direction: column;
+}
+
+.find-your-property label {
+  margin-bottom: 0.75rem;
+}
+
+.find-your-property input,
+.find-your-property textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.find-your-property button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.find-your-property button:hover {
+  background-color: #0056b3;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import { IoHeartCircleOutline } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 import { LiaBedSolid } from "react-icons/lia";
@@ -7,6 +8,7 @@ import { TbRulerMeasure } from "react-icons/tb";
 import "../styles/card.css";
 
 function PropertyCard({properties, handleLike}) {
+
   return (
     <div className="property_card" id={properties.id}>
       <div className="property_card-img_container">
@@ -32,7 +34,7 @@ function PropertyCard({properties, handleLike}) {
         <div className="property_card-details">
           <h2 className="property_card-location">{properties.title}</h2>
           <div className="property_card-price">
-            <h3>Kes {properties.price}</h3> 
+            <h3>Kes {properties.price.toLocaleString()}</h3> 
             {properties.status === "For Rent"? <span>/year</span> : null }
           </div>          
 
@@ -58,7 +60,7 @@ function PropertyCard({properties, handleLike}) {
               <span>{properties.squareFootage} sqft</span>
             </div>
           </div>
-          <button className="view-property-btn" >View Property</button>
+          <Link className="view-property-btn" to={`/properties-detail/${properties.id}`}>View Property</Link>
         </div>
       </div>
     </div>

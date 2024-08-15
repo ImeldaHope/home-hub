@@ -6,7 +6,7 @@ import { Outlet } from "react-router-dom";
 
 function App() {
   const [properties, setProperties] = useState([]);
-  const [isWishlistOpen, setIsWishlistOpen] = useState(false);
+  const [isWishlistOpen, setIsWishlistOpen] = useState(false);  
   const [postWishList, setPostWishList] = useState([]);
 
   useEffect(() => {
@@ -15,8 +15,6 @@ function App() {
       .then(data => setProperties(data))
       .catch(error => console.error('Error fetching properties:', error));
   }, []);
-  
-  
 
   function handleLike(e) {
     const likedId = e.currentTarget.getAttribute('like-id')

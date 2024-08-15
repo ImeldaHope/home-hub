@@ -2,19 +2,20 @@ import React from 'react'
 import { useOutletContext, useParams } from 'react-router-dom';
 import '../styles/property-details.css';
 
-function PropertyDetail({ closeDetails }) {
+function PropertyDetail() {
   const params = useParams();
-  const properties = useOutletContext();
-  
-  const property = properties.find(prop => prop.id === parseInt(params.id));
+  const {properties} = useOutletContext();
+ 
+  const property = properties.find(prop => prop.id === params.id);
   
   return (
-    <div>
+    <div >
       {property ? (
         <div className="property-details">
           <h2>{property.title}</h2>
 
           <div className="property-gallery">
+            
             {/* Gallery content here */}
           </div>
           
@@ -85,7 +86,7 @@ function PropertyDetail({ closeDetails }) {
             <p>Profile picture:{property.profilePicture}</p>
           </div>
 
-          {/* <button onClick={closeDetails}>Close</button> */}
+          <button>Close</button>
         </div>
       ) : (
         <p>No property details available.</p>

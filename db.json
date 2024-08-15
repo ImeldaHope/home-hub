@@ -1443,35 +1443,36 @@
   ],
   "wishlist": [
     {
-      "id": "4",
-      "title": "Beachfront Villa",
-      "location": "Diani, Kenya",
-      "price": 80000000,
-      "propertyType": "Villa",
-      "bedrooms": 5,
-      "bathrooms": 4,
-      "squareFootage": 4000,
+      "id": "1",
+      "title": "Modern Family Home",
+      "location": "Nairobi, Kenya",
+      "price": 45000000,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "squareFootage": 2500,
       "status": "For Sale",
       "amenities": [
-        "Private Beach Access",
-        "Infinity Pool",
-        "Outdoor Kitchen",
-        "Guest House"
+        "Garden",
+        "Garage",
+        "Swimming Pool",
+        "Home Office"
       ],
       "images": [
-        "https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.pexels.com/photos/2343465/pexels-photo-2343465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "https://img.freepik.com/free-photo/modern-architecture-reflects-illuminated-swimming-pool-dusk-generated-by-artificial-intelligence_188544-150826.jpg?t=st=1723573054~exp=1723576654~hmac=662480af2378c22d60964ec420ea0b5316672372889b4784be0eb45f95ea4d31&w=1060",
+        "https://unsplash.com/photos/brown-leather-sofa-and-two-pink-sofa-chair-6CJg-fOTYs4",
+        "https://unsplash.com/photos/gray-steel-3-door-refrigerator-near-modular-kitchen-MP0bgaS_d1c"
       ],
-      "description": "A stunning beachfront villa with private access to the beach, perfect for luxury living.",
+      "description": "A spacious modern family home with a large garden, perfect for a growing family.",
       "agent": {
-        "name": "Michael Johnson",
-        "email": "michael.johnson@realestate.com",
-        "phone": "+254701234567",
-        "profilePicture": "agent4.jpg"
+        "name": "John Doe",
+        "email": "john.doe@realestate.com",
+        "phone": "+254712345678",
+        "profilePicture": "agent1.jpg"
       },
       "reviews": [
-        "dream home init"
+        "dream home init",
+        "ingine"
       ]
     }
   ]

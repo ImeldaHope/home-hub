@@ -48,6 +48,8 @@
   border-radius: 5px;
   font-size: 12pt;
   cursor: pointer;  
+  text-align: center;
+  text-decoration: none;
 }
 
 .view-property-btn:active,
