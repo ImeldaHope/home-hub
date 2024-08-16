@@ -8,7 +8,7 @@ function SearchBar({search, handleSearchChange}) {
           type="text"
           value={search}
           onChange={handleSearchChange}
-          placeholder="Search property here..."
+          placeholder="Search property here by description etc. ..."
           name="search"
           id="search"
         />

@@ -18,7 +18,9 @@
 }
 
 .type-card:active, 
-.type-card:hover{
+.type-card:hover,
+.type-card:focus,
+.type-card.current{
     background-color: #1085FF;
     color: #F5F5F5;    
 }
