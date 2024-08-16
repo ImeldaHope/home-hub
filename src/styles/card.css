@@ -18,23 +18,24 @@
 }
 
 .property_card-content {
-  padding: 2rem ;
+  padding: 2rem;
 }
-
 
 .property_card-img_container {
   position: relative;
 }
 
-.property_card-details_container{
+.property_card-details_container {
   display: flex;
-  justify-content: space-between; 
-  margin-block: 20px; 
+  justify-content: space-between;
+  margin-block: 20px;
 }
 
-.beds, .bath, .plinth{
+.beds,
+.bath,
+.plinth {
   display: flex;
-  align-items: center;  
+  align-items: center;
   gap: 3px;
 }
 
@@ -42,19 +43,20 @@
   display: block;
   background-color: #1085ff;
   color: #ffffff;
-  margin: 0 auto;  
+  margin: 0 auto;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   font-size: 12pt;
-  cursor: pointer;  
+  cursor: pointer;
   text-align: center;
   text-decoration: none;
+  transition: 0.3s ease;
 }
 
 .view-property-btn:active,
 .view-property-btn:hover {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   color: #1085ff;
   font-weight: bold;
   transform: scale(1.05);
@@ -64,7 +66,8 @@
   margin-block: 0;
 }
 
-.property_card-address_container .icon, .property_card-details_container .icon {
+.property_card-address_container .icon,
+.property_card-details_container .icon {
   width: 20px;
   height: 20px;
   color: #1085ff;
@@ -74,23 +77,23 @@
   width: 100%;
 }
 
-.property_card-address_container{
-  display: flex;  
+.property_card-address_container {
+  display: flex;
   align-items: center;
 }
 
-.property_card-price{
-  display: flex;  
+.property_card-price {
+  display: flex;
   align-items: center;
   gap: 5px;
 }
 
-.property_card-price span{
+.property_card-price span {
   font-weight: bold;
 }
 
-.property_card-price h3{
-  color:#1085ff;
+.property_card-price h3 {
+  color: #1085ff;
 }
 
 .like_icon {
@@ -101,13 +104,10 @@
   height: 3rem;
   width: 3rem;
   transition: transform 0.3s ease;
+  color: #ffffff;
 }
 
-.like_icon .isLiked{
-  fill: red;
-  stroke: red;
-}
-.like_icon:hover{
+.like_icon:hover {
   transform: scale(1.2);
   fill: #1085ff;
   stroke: #1085ff;
@@ -117,7 +117,6 @@
   display: flex;
   position: absolute;
   bottom: -10px;
-
 }
 
 .property_card-tags small {
