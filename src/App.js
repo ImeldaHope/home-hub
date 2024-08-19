@@ -21,14 +21,14 @@ function App() {
   
 
   useEffect(() => {
-    fetch("http://localhost:3001/wishlist")
+    fetch("https://homehub-isbp.onrender.com/wishlist")
       .then((res) => res.json())
       .then((data) => setWishlist(data.reverse()));
   }, [wishlist]);
 
   function handleDelete(deletedId) {    
 
-    fetch(`http://localhost:3001/wishlist/${deletedId}`, {
+    fetch(`https://homehub-isbp.onrender.com/wishlist/${deletedId}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json"
@@ -42,7 +42,7 @@ function App() {
   }
 
   useEffect(() => {
-    fetch('http://localhost:3001/homehub')
+    fetch('https://homehub-isbp.onrender.com/homehub')
       .then(response => response.json())
       .then(data => setProperties(data))
       .catch(error => console.error('Error fetching properties:', error));
@@ -64,7 +64,7 @@ function App() {
     const likedProperty = properties.find((property) => property.id === id) 
     const postData = { ...likedProperty, reviews: [] };
 
-    fetch("http://localhost:3001/wishlist", {
+    fetch("https://homehub-isbp.onrender.com/wishlist", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

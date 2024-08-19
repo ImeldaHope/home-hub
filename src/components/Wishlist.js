@@ -12,7 +12,7 @@ function Wishlist({ isOpen, closeWishlist, handleLike, wishlist }) {
     
     const postedId = e.currentTarget.getAttribute("posted-id");
     
-    fetch(`http://localhost:3001/wishlist/${postedId}`, {
+    fetch(`https://homehub-isbp.onrender.com/wishlist/${postedId}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json"
