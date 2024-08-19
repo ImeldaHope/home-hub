@@ -1,39 +1,40 @@
-.main-type{
-    display: flex;
-    flex-direction: row;
-    overflow-x: hidden;
-    padding: 20px;    
+.main-type {
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  padding: 20px;
 }
 
-.type-card{
-    width: 200px;
-    height: 150px;
-    background-color: #F5F5F5;
-    border-radius: 30px;
-    text-align: center;    
+.type-card {
+  width: 200px;
+  height: 150px;
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  text-align: center;
+  transition: 0.3s ease;
 }
 
 .type-card > * {
-    margin-block: 0;
+  margin-block: 0;
 }
 
-.type-card:active, 
+.type-card:active,
 .type-card:hover,
 .type-card:focus,
-.type-card.current{
-    background-color: #1085FF;
-    color: #F5F5F5;    
+.type-card.current {
+  background-color: #1085ff;
+  color: #f5f5f5;
 }
 
-.type-card:active > *, 
-.type-card:hover > *{       
-    color: #F5F5F5;    
+.type-card:active > *,
+.type-card:hover > * {
+  color: #f5f5f5;
 }
 
-.house-icon{
-    color: #1085FF;
-    width: 30px;
-    height: 30px;
-    margin-top: 20px;
-    padding: 20px;
+.house-icon {
+  color: #1085ff;
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  padding: 20px;
 }
