@@ -54,7 +54,7 @@ function Home(){
   };
 
   return (
-    <>
+    <div className='home-container'>
       <Hero />
       <PropertyFilter filters={filters} handleChange={handleChange}/>
       <div className='type-section'>
@@ -90,7 +90,7 @@ function Home(){
           Next
         </button>
       </div>        
-    </>
+    </div>
   )
 }
 

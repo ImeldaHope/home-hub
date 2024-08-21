@@ -1,3 +1,7 @@
+.home-container{
+  width: 100%;
+}
+
 .type-section {
   margin-block: 40px;
 }
@@ -17,16 +21,12 @@
 
 .filtered-map {
   display: grid;
+  width: 90%;
   grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;  
-  gap: 1rem;
+  gap: 2rem;
 }
 
-
-.filtered-map>* {
-  margin: 20px;
-  gap: 20px;
-}
 
 @media (max-width: 600px) {
   .filtered-map { grid-template-columns: repeat(1, 1fr); }

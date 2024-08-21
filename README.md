@@ -1,5 +1,5 @@
 # HomeHub
-Live view: [Home Hub](https://github.com/ImeldaHope/home-hub)
+Live view: [Home Hub](https://home-hub-silk.vercel.app/)
 
 ## Description
 
