@@ -14,6 +14,8 @@ function Home(){
 
   const propertiesPerPage = 6;
 
+  if(!properties) return <h1>Loading properties ...</h1>
+  
   function handleTypeClick(e){
     const selectedType = e.currentTarget.getAttribute('type');
     
