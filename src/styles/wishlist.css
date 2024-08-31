@@ -74,3 +74,15 @@
   font-weight: normal;
   text-align: center;
 }
+
+@media (max-width: 480px) {
+  .wishlist-modal {
+    width: 100%; /* Full width on extra-small screens */
+  }
+
+  .close-btn {
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+  }
+}

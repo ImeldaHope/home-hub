@@ -34,8 +34,8 @@ function PropertyDetail() {
               <p className='sqft'>{property.squareFootage} sqft</p>
             </div>
             <div className="property-gallery">
-              <img src={property.images[0]}/>
-              <div>{property.images.map((pic) => <img src={pic}/>)}</div>
+              <img className='main-image' src={property.images[0]} alt={property.title}/>
+              <div className='side-images'>{property.images.map((pic) => <img src={pic} alt={property.title}/>)}</div>
             </div>
           <div className='property-main'>
             <div>

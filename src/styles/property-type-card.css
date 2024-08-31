@@ -27,7 +27,8 @@
 }
 
 .type-card:active > *,
-.type-card:hover > * {
+.type-card:hover > *,
+.type-card.current > * {
   color: #f5f5f5;
 }
 

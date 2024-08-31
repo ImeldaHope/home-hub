@@ -17,7 +17,8 @@
     row-gap: 50px; 
     column-gap: 50px;
     padding: 20px;  
-    margin: 0 auto;      
+    margin: 0 auto;  
+    place-items: center;    
 }
 
 .search-form-container {
@@ -36,7 +37,7 @@
 .search-form input {
     flex: 1;
     padding: 10px;
-    border: 1px solid #1085ff; /* Use a color from the same palette as the button */
+    border: 1px solid #1085ff; 
     border-radius: 5px;
     font-size: 16px;
     outline: none;
@@ -47,3 +48,40 @@
 .search-form input::placeholder {               
     font-size: 16px;
 }
+
+/* For tablets and small desktops */
+@media (max-width: 992px) {
+    .property-list {
+      grid-template-columns: repeat(2, 1fr); 
+      row-gap: 30px; 
+      column-gap: 30px;
+    }
+  
+    .search-form input {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
+  /* For mobile screens */
+  @media (max-width: 768px) {
+    .property-list {
+      grid-template-columns: 1fr; 
+      row-gap: 20px; 
+      column-gap: 0; 
+    }
+  
+    .search-form-container {
+      flex-direction: column; 
+      align-items: stretch; 
+    }
+  
+    .search-form {
+      max-width: 100%; 
+    }
+  
+    .search-form input {
+      font-size: 12px;
+      padding: 6px;
+    }
+  }

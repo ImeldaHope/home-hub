@@ -13,6 +13,7 @@
 
 .footer-text {
   width: 30%;
+  min-width: 250px;
 }
 
 .footer-form input {
@@ -50,4 +51,53 @@
   justify-content: space-around;
   color: #fff;
   background-color: #1085ff;
+}
+
+/* Responsive Styles for Medium Screens */
+@media (max-width: 900px) {
+  .footer {
+      flex-direction: column; 
+      justify-content: center;
+      align-items: center;
+      text-align: center; 
+  }
+
+  .footer > * {
+      margin-inline: 0; 
+      margin-bottom: 20px; 
+      width: 100%; 
+  }
+  
+  .footer-text, .footer-form, .footer-links {
+      width: 100%; 
+  }
+}
+
+/* Responsive Styles for Small Screens */
+@media (max-width: 600px) {
+  .footer {
+      padding: 10px; 
+      flex-direction: column; 
+      align-items: center; 
+  }
+
+  .footer > * {
+      margin-inline: 0; 
+      margin-bottom: 15px; 
+      width: 100%; 
+      text-align: center; 
+  }
+
+  .footer-text, .footer-form, .footer-links {
+      width: 100%; 
+      text-align: center; 
+  }
+
+  .footer-form input {
+      padding: 8px; 
+  }
+
+  .footer-form input[type="submit"] {
+      margin-top: 5px; 
+  }
 }

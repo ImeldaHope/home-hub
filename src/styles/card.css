@@ -9,7 +9,8 @@
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.4s;
-  width: 400px;
+  width: 100%; 
+  max-width: 400px;
 }
 
 .property_card:hover {
@@ -124,4 +125,25 @@
   background-color: #1085ff;
   padding: 0.5rem 1rem;
   border-radius: 20px;
+}
+
+/* Media queries for responsiveness */
+
+
+@media (max-width: 992px) {
+  .property_card {
+    max-width: 300px; /* Smaller max width for medium screens */
+  }
+
+}
+
+@media (max-width: 768px) {
+  .property_card {
+    max-width: 90%; /* Ensure full width on small screens */
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.075); /* Adjust shadow for smaller cards */
+  }
+
+  
+
+  
 }

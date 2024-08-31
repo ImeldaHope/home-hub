@@ -11,12 +11,14 @@ function Home(){
   const [type, setType] = useState("");
 
   const [currentPage, setCurrentPage] = useState(1);
+  
 
   const propertiesPerPage = 6;
 
   if(!properties) return <h1>Loading properties ...</h1>
   
-  function handleTypeClick(e){
+  function handleTypeClick(e){  
+    
     const selectedType = e.currentTarget.getAttribute('type');
     
     if (selectedType === type) {      
@@ -60,7 +62,7 @@ function Home(){
       <div className='type-section'>
         <small><em className='dash'>———</em> Property Types</small>
         <h2>Explore Property <em>Types</em></h2>
-        <div className='type-div'>{propertyTypeCount.map(([key, value]) => <PropertyTypeCard key={key} type={key} count={value} handleClick={handleTypeClick}/>)}</div>
+        <div className='type-div'>{propertyTypeCount.map(([key, value]) => <PropertyTypeCard key={key} type={key} count={value} handleClick={handleTypeClick} selected={type === key}/>)}</div>
       </div>
       <div className='filtered-map'>
         {paginatedProperties.length > 0 ? paginatedProperties.map((property) => (
